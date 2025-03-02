@@ -1,3 +1,28 @@
+"""
+This script discovers and plots circuits in a language model using various command line arguments.
+
+Command Line Arguments:
+    --dataset, -d (str): A subject-verb agreement dataset in data/, or a path to a cluster .json. Default is "simple_train".
+    --num_examples, -n (int): The number of examples from the --dataset over which to average indirect effects. Default is 100.
+    --model (str): The Huggingface ID of the model you wish to test. Default is "EleutherAI/pythia-70m-deduped".
+    --dict_path (str): Path to all dictionaries for your language model. Default is "dictionaries/pythia-70m-deduped/".
+    --d_model (int): Hidden size of the language model. Default is 512.
+    --use_neurons (bool): Use neurons instead of features. Default is False.
+    --batch_size (int): Number of examples to process at once when running circuit discovery. Default is 32.
+    --aggregation (str): Aggregation across token positions. Should be one of `sum` or `none`. Default is "sum".
+    --node_threshold (float): Indirect effect threshold for keeping circuit nodes. Default is 0.2.
+    --edge_threshold (float): Indirect effect threshold for keeping edges. Default is 0.02.
+    --pen_thickness (float): Scales the width of the edges in the circuit plot. Default is 1.
+    --nopair (bool): Use if your data does not contain contrastive (minimal) pairs. Default is False.
+    --plot_circuit (bool): Plot the circuit after discovering it. Default is False.
+    --nodes_only (bool): Only search for causally implicated features; do not draw edges. Default is False.
+    --plot_only (bool): Do not run circuit discovery; just plot an existing circuit. Default is False.
+    --circuit_dir (str): Directory to save/load circuits. Default is "circuits".
+    --plot_dir (str): Directory to save figures. Default is "circuits/figures/".
+    --seed (int): Random seed for reproducibility. Default is 12.
+    --device (str): Device to run the computations on. Default is "cuda:0".
+"""
+
 import argparse
 import gc
 import json
@@ -13,6 +38,7 @@ from circuit_plotting import plot_circuit, plot_circuit_posaligned
 from dictionary_learning import AutoEncoder
 from data_loading_utils import load_examples, load_examples_nopair
 from dictionary_loading_utils import load_saes_and_submodules
+from metrics import length_metric
 from nnsight import LanguageModel
 from coo_utils import sparse_reshape
 
@@ -410,6 +436,11 @@ if __name__ == "__main__":
         action="store_true",
         help="Use if your data does not contain contrastive (minimal) pairs.",
     )
+    parser.add_argument("--mode",
+        type=str,
+        default='rct',
+        help="Set the design of the experiment. Must be one of 'pair', 'nopair', 'rct'."
+    )
     parser.add_argument(
         "--plot_circuit",
         default=False,
@@ -442,23 +473,27 @@ if __name__ == "__main__":
     )
     parser.add_argument("--seed", type=int, default=12)
     parser.add_argument("--device", type=str, default="cuda:0")
+    parser.add_argument("--prompt_dir", 
+        type=str,
+        help="Folder containing clean.txt and patch.txt."
+    )
     args = parser.parse_args()
 
     device = t.device(args.device)
 
-    n_layers = {
+    n_layers = { # pythia = 6
         "EleutherAI/pythia-70m-deduped": 6,
         "google/gemma-2-2b": 26,
     }[args.model]
-    parallel_attn = {
+    parallel_attn = { # pythia = True
         "EleutherAI/pythia-70m-deduped": True,
         "google/gemma-2-2b": False,
     }[args.model]
-    include_embed = {
+    include_embed = { # pythia = True
         "EleutherAI/pythia-70m-deduped": True,
         "google/gemma-2-2b": False,
     }[args.model]
-    dtype = {
+    dtype = { # pythia = t.float32
         "EleutherAI/pythia-70m-deduped": t.float32,
         "google/gemma-2-2b": t.bfloat16,
     }[args.model]
@@ -474,7 +509,27 @@ if __name__ == "__main__":
             torch_dtype=dtype,
         )
 
-    if args.nopair:
+    ###################################################################
+    #######################    LOAD DATASET   #########################
+    ###################################################################
+    if args.mode == 'rct':
+        
+        with open(os.path.join(args.prompt_dir, 'clean.txt'), 'r') as f:
+            clean = f.readlines()
+            
+        with open(os.path.join(args.prompt_dir, 'patch.txt'), 'r') as f:
+            patch = f.readlines()
+        
+        n = min(len(clean), len(patch))
+        examples = [
+            {
+                'clean_prefix': c,
+                'patch_prefix': p
+            }
+            for c, p in zip(clean[:n], patch[:n])
+        ]
+        
+    elif args.nopair: # We should always use nopair for RCT
         data_path = f"data/{args.dataset}.json"
         examples = load_examples_nopair(
             data_path, args.num_examples, model
@@ -485,12 +540,13 @@ if __name__ == "__main__":
             data_path, args.num_examples, model, use_min_length_only=True
         )
 
+    # Create batch
     num_examples = min([args.num_examples, len(examples)])
     if num_examples < args.num_examples:  # warn the user
         print(
             f"Total number of examples is less than {args.num_examples}. Using {num_examples} examples instead."
         )
-
+    
     batch_size = args.batch_size
     n_batches = math.ceil(num_examples / batch_size)
     batches = [
@@ -542,36 +598,46 @@ if __name__ == "__main__":
 
         for batch in tqdm(batches, desc="Batches"):
             clean_inputs = [e["clean_prefix"] for e in batch]
-            clean_answer_idxs = t.tensor(
-                [model.tokenizer(e["clean_answer"]).input_ids[-1] for e in batch],
-                dtype=t.long,
-                device=device,
-            )
-
-            if args.nopair:
-                patch_inputs = None
-
-                def metric_fn(model):
-                    return -1 * t.gather(
-                        model.output.logits[:, -1, :],
-                        dim=-1,
-                        index=clean_answer_idxs.view(-1, 1),
-                    ).squeeze(-1)
-            else:
-                patch_inputs = [e["patch_prefix"] for e in batch]
-                patch_answer_idxs = t.tensor(
-                    [model.tokenizer(e["patch_answer"]).input_ids[-1] for e in batch],
+            patch_inputs = None
+            if args.mode != 'rct':
+                clean_answer_idxs = t.tensor(
+                    [model.tokenizer(e["clean_answer"]).input_ids[-1] for e in batch],
                     dtype=t.long,
                     device=device,
                 )
 
-                def metric_fn(model):
-                    logits = model.output.logits[:, -1, :]
-                    return t.gather(
-                        logits, dim=-1, index=patch_answer_idxs.view(-1, 1)
-                    ).squeeze(-1) - t.gather(
-                        logits, dim=-1, index=clean_answer_idxs.view(-1, 1)
-                    ).squeeze(-1)
+            match args.mode:
+                case 'rct': 
+                    patch_inputs = [e["patch_prefix"] for e in batch]
+
+                    def metric_fn(model):
+                        return length_metric(model, clean_inputs, patch_inputs)
+                
+                case 'nopair':
+                    def metric_fn(model):
+                        return -1 * t.gather(
+                            model.output.logits[:, -1, :],
+                            dim=-1,
+                            index=clean_answer_idxs.view(-1, 1),
+                        ).squeeze(-1)
+                case 'pair':
+                    patch_inputs = [e["patch_prefix"] for e in batch]
+                    patch_answer_idxs = t.tensor(
+                        [model.tokenizer(e["patch_answer"]).input_ids[-1] for e in batch],
+                        dtype=t.long,
+                        device=device,
+                    )
+
+                    def metric_fn(model):
+                        logits = model.output.logits[:, -1, :]
+                        return t.gather(
+                            logits, dim=-1, index=patch_answer_idxs.view(-1, 1)
+                        ).squeeze(-1) - t.gather(
+                            logits, dim=-1, index=clean_answer_idxs.view(-1, 1)
+                        ).squeeze(-1)
+                
+                case _:
+                    pass
 
             nodes, edges = get_circuit(
                 clean_inputs,

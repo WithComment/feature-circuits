@@ -168,12 +168,12 @@ def _pe_exact(
         metric_clean = metric_fn(model).save()
     hidden_states_clean = {k : v.value for k, v in hidden_states_clean.items()}
 
-    if patch is None:
+    if patch is None: # If no patching activation, use zero ablation.
         hidden_states_patch = {
             k : SparseAct(act=t.zeros_like(v.act), res=t.zeros_like(v.res)) for k, v in hidden_states_clean.items()
         }
         total_effect = None
-    else:
+    else: # Otherwise do a run model on patched inputs, store activations.
         hidden_states_patch = {}
         with t.no_grad(), model.trace(patch):
             for submodule in submodules:

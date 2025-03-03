@@ -1,0 +1,22 @@
+name: feature_circuits
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - matplotlib>=3.8.3
+  - numpy>=1.26.4,<2.0
+  - pandas>=2.2.1
+  - pytorch>=2.1.5
+  - tqdm>=4.66.1
+  - graphviz>=0.20.1
+  - pip:
+    - circuitsvis>=1.43.2
+    - datasets>=2.18.0
+    - einops>=0.7.0
+    - nnsight<0.4
+    - plotly>=5.18.0
+    - torchtyping>=0.1.4
+    - zstandard>=0.22.0
+    - dictionary_learning

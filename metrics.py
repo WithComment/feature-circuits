@@ -2,7 +2,7 @@ import nnsight
 import torch as t
 
 
-def count_generated_tokens(model: nnsight.LanguageModel, prompt: str, max_tokens: int = 500) -> int:
+def count_generated_tokens(model: nnsight.LanguageModel, prompt: str, max_tokens: int = 1) -> int:
   """
   Generates text from a prompt and returns the number of tokens generated.
   Continues generating until either a BoS token is encountered or max_tokens is reached.
@@ -20,7 +20,6 @@ def count_generated_tokens(model: nnsight.LanguageModel, prompt: str, max_tokens
   if isinstance(prompt, str):
     prompt = prompt.strip()
     encoded_prompt = prompt.encode('utf-8', errors='ignore').decode('utf-8')
-    print(encoded_prompt)
     prompt_tensor = model.tokenizer(
       prompt, return_tensors="pt", truncation=True, max_length=2048)["input_ids"]
   else:
@@ -28,14 +27,11 @@ def count_generated_tokens(model: nnsight.LanguageModel, prompt: str, max_tokens
 
   prompt_length = prompt_tensor.shape[-1]
 
-  # Get the BoS token ID - usually it's the same as the model's bos_token_id
-  bos_token_id = model.config.bos_token_id
-
   # Generate text
-  with model.generate(prompt_tensor, max_new_tokens=max_tokens) as generator:
+  with model.generate(prompt_tensor, max_new_tokens=max_tokens) as tracer:
     out = model.generator.output.save()
-
-  generated_tokens = total_tokens - prompt_length
+  
+  generated_tokens = len(out) - prompt_length
 
   assert generated_tokens > 1
   return generated_tokens

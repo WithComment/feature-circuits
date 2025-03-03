@@ -26,7 +26,7 @@ def _pe_attrib(
     with model.trace(clean):
         for submodule in submodules:
             dictionary = dictionaries[submodule]
-            x = submodule.get_activation()
+            x = submodule.get_activation()[:, -1, :].unsqueeze(1)
             x_hat, f = dictionary(x, output_features=True) # x_hat implicitly depends on f
             residual = x - x_hat
             hidden_states_clean[submodule] = SparseAct(act=f, res=residual).save()
@@ -50,7 +50,7 @@ def _pe_attrib(
         with t.no_grad(), model.trace(patch):
             for submodule in submodules:
                 dictionary = dictionaries[submodule]
-                x = submodule.get_activation()
+                x = submodule.get_activation()[:, -1, :].unsqueeze(1)
                 x_hat, f = dictionary(x, output_features=True)
                 residual = x - x_hat
                 hidden_states_patch[submodule] = SparseAct(act=f, res=residual).save()
@@ -86,11 +86,12 @@ def _pe_ig(
     with t.no_grad(), model.trace(clean):
         for submodule in submodules:
             dictionary = dictionaries[submodule]
-            x = submodule.get_activation()
+            x = submodule.get_activation()[:, -1, :].unsqueeze(1)
             f = dictionary.encode(x)
             x_hat = dictionary.decode(f)
             residual = x - x_hat
             hidden_states_clean[submodule] = SparseAct(act=f.save(), res=residual.save()) # type: ignore
+        
         metric_clean = metric_fn(model, **metric_kwargs).save()
     hidden_states_clean = {k : v.value for k, v in hidden_states_clean.items()}
 
@@ -104,7 +105,7 @@ def _pe_ig(
         with t.no_grad(), model.trace(patch):
             for submodule in submodules:
                 dictionary = dictionaries[submodule]
-                x = submodule.get_activation()
+                x = submodule.get_activation()[:, -1, :].unsqueeze(1)
                 f = dictionary.encode(x)
                 x_hat = dictionary.decode(f)
                 residual = x - x_hat
@@ -160,7 +161,7 @@ def _pe_exact(
     with t.no_grad(), model.trace(clean):
         for submodule in submodules:
             dictionary = dictionaries[submodule]
-            x = submodule.get_activation()
+            x = submodule.get_activation()[:, -1, :].unsqueeze(1)
             f = dictionary.encode(x)
             x_hat = dictionary.decode(f)
             residual = x - x_hat
@@ -178,7 +179,7 @@ def _pe_exact(
         with t.no_grad(), model.trace(patch):
             for submodule in submodules:
                 dictionary = dictionaries[submodule]
-                x = submodule.get_activation()
+                x = submodule.get_activation()[:, -1, :].unsqueeze(1)
                 f = dictionary.encode(x)
                 x_hat = dictionary.decode(f)
                 residual = x - x_hat
@@ -309,11 +310,11 @@ def jvp(
                 submodule.stop_grad()
             x_res.grad = t.zeros_like(x_res.grad)
 
-            vjv = (upstream_act.grad @ right_vec).to_tensor()
+            vjv = (upstream_act.grad @ right_vec).to_tensor().double().cuda()
             to_backprops[tuple(downstream_feat_idx)].backward(retain_graph=True)
             vjv_values[downstream_feat_idx] = vjv.save() # type: ignore
 
     vjv_indices = t.stack(list(vjv_values.keys()), dim=0).T
-    vjv_values = t.stack([v.value for v in vjv_values.values()], dim=0)
+    vjv_values = t.stack([v.value[:, -1, :].unsqueeze(1) for v in vjv_values.values()], dim=0)
 
     return t.sparse_coo_tensor(vjv_indices, vjv_values, size=(b, s, n_feats+1, b, s, n_feats+1))

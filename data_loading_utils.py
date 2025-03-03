@@ -1,4 +1,5 @@
 import json
+import os
 import random
 import torch as t
 import torch.nn.functional as F
@@ -141,6 +142,26 @@ def load_examples_nopair(dataset, num_examples, model):
 
   return examples
 
+def load_examples_rct(
+  dir: str,
+  num_examples: int,
+  is_test: bool = False
+):
+  with open(os.path.join(dir, f'clean{"_test" if is_test else ""}.txt'), 'r') as f:
+    clean = [l.strip() for l in f.readlines()]
+
+  with open(os.path.join(dir, f'patch{"_test" if is_test else ""}.txt'), 'r') as f:
+    patch = [l.strip() for l in f.readlines()]
+
+  n = min(len(clean), len(patch), num_examples)
+  examples = [
+      {
+          'clean_prefix': c,
+          'patch_prefix': p
+      }
+      for c, p in zip(clean[:n], patch[:n])
+  ]
+  return examples
 
 def get_annotation(dataset, model, data):
   # First, understand which dataset we're working with

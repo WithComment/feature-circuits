@@ -36,9 +36,9 @@ from tqdm import tqdm
 from attribution import patching_effect, jvp
 from circuit_plotting import plot_circuit, plot_circuit_posaligned
 from dictionary_learning import AutoEncoder
-from data_loading_utils import load_examples, load_examples_nopair
+from data_loading_utils import load_examples, load_examples_nopair, load_examples_rct
 from dictionary_loading_utils import load_saes_and_submodules
-from metrics import length_metric
+from metrics import eos_metric, length_metric
 from nnsight import LanguageModel
 from coo_utils import sparse_reshape
 
@@ -524,22 +524,10 @@ if __name__ == "__main__":
   #######################    LOAD DATASET   #########################
   ###################################################################
   if args.mode == 'rct':
-
-    with open(os.path.join(args.prompt_dir, 'clean.txt'), 'r') as f:
-      clean = [l.strip() for l in f.readlines()]
-
-    with open(os.path.join(args.prompt_dir, 'patch.txt'), 'r') as f:
-      patch = [l.strip() for l in f.readlines()]
-
-    n = min(len(clean), len(patch))
-    examples = [
-        {
-            'clean_prefix': c,
-            'patch_prefix': p
-        }
-        for c, p in zip(clean[:n], patch[:n])
-    ]
-
+    data_path = args.prompt_dir
+    examples = load_examples_rct(
+        data_path, args.num_examples
+    )
   elif args.nopair:  # We should always use nopair for RCT
     data_path = f"data/{args.dataset}.json"
     examples = load_examples_nopair(
@@ -571,9 +559,9 @@ if __name__ == "__main__":
       + ("_neurons" if args.use_neurons else "")
   )
   node_suffix = f"node{args.node_threshold}" if not args.nodes_only else "nodeall"
-  save_path = "circuits/pythia-70m-deduped_simple_train_n2_aggsum_node0.1.pt"
-  # if os.path.exists(save_path := f"{args.circuit_dir}/{save_base}_{node_suffix}.pt"):
-  if os.path.exists(save_path):
+  if os.path.exists(save_path := f"{args.circuit_dir}/{save_base}_{node_suffix}.pt"):
+  # save_path = "circuits/pythia-70m-deduped_simple_train_n2_aggsum_node0.1.pt"
+  # if os.path.exists(save_path):
     print(f"Loading circuit from {save_path}")
     with open(save_path, "rb") as infile:
       save_dict = t.load(infile, weights_only=False)
@@ -622,10 +610,7 @@ if __name__ == "__main__":
       match args.mode:
         case 'rct':
           patch_inputs = [e["patch_prefix"] for e in batch]
-
-          def metric_fn(model):
-            return -model.output.logits[:, -1, model.tokenizer.bos_token_id]
-
+          metric_fn = eos_metric
         case 'nopair':
           def metric_fn(model):
             return -1 * t.gather(

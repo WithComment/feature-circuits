@@ -2,8 +2,9 @@ from nnsight import LanguageModel
 import torch as t
 from argparse import ArgumentParser
 from activation_utils import SparseAct
-from loading_utils import load_examples
+from data_loading_utils import load_examples_rct
 from dictionary_loading_utils import load_saes_and_submodules
+from metrics import eos_metric
 
 
 def run_with_ablations(
@@ -27,7 +28,7 @@ def run_with_ablations(
     with model.trace(patch), t.no_grad():
         for submodule in submodules:
             dictionary = dictionaries[submodule]
-            x = submodule.get_activation()
+            x = submodule.get_activation()[:, -1, :].unsqueeze(1)
             f = dictionary.encode(x)
             x_hat = dictionary.decode(f)
             patch_states[submodule] = SparseAct(act=f, res=x - x_hat).save()
@@ -37,10 +38,11 @@ def run_with_ablations(
         for submodule in submodules:
             dictionary = dictionaries[submodule]
             submod_nodes = nodes[submodule]
-            x = submodule.get_activation()
+            x = submodule.get_activation()[:, -1, :].unsqueeze(1)
             f = dictionary.encode(x)
             res = x - dictionary(x)
-
+            print(type(submodule))
+            
             # ablate features
             if complement:
                 submod_nodes = ~submod_nodes
@@ -48,7 +50,7 @@ def run_with_ablations(
                 *submod_nodes.resc.shape[:-1], res.shape[-1]
             )
             if handle_errors == "remove":
-                submod_nodes.resc = t.zeros_like(submod_nodes.resc).to(t.bool)
+                submod_nodes.resc = t.zeros_like(*submod_nodes.resc.shape[:-1], res.shape[-1]).to(t.bool)
             if handle_errors == "keep":
                 submod_nodes.resc = t.ones_like(submod_nodes.resc).to(t.bool)
 
@@ -134,14 +136,14 @@ if __name__ == "__main__":
     ]
 
     # Load circuit
-    circuit = t.load(args.circuit)["nodes"]
+    circuit = t.load(args.circuit, weights_only=False)["nodes"]
     nodes = {
         submod: circuit[submod.name].abs() > args.threshold for submod in submodules
     }
 
     # Load examples
-    examples = load_examples(
-        f"data/{args.data}.json", args.examples, model, use_min_length_only=True
+    examples = load_examples_rct(
+        "prompts/concise", args.examples, is_test=True
     )
 
     # Define ablation function
@@ -161,24 +163,20 @@ if __name__ == "__main__":
 
     # Prepare inputs
     clean_inputs = [e["clean_prefix"] for e in examples]
-    clean_answer_idxs = t.tensor(
-        [model.tokenizer(e["clean_answer"]).input_ids[-1] for e in examples],
-        dtype=t.long,
-        device=args.device,
-    )
     patch_inputs = [e["patch_prefix"] for e in examples]
-    patch_answer_idxs = t.tensor(
-        [model.tokenizer(e["patch_answer"]).input_ids[-1] for e in examples],
-        dtype=t.long,
-        device=args.device,
-    )
-
-    def metric_fn(model):
-        logits = model.output.logits[:, -1, :]
-        return -t.gather(logits, dim=-1, index=patch_answer_idxs.view(-1, 1)).squeeze(
-            -1
-        ) + t.gather(logits, dim=-1, index=clean_answer_idxs.view(-1, 1)).squeeze(-1)
-
+    # clean_answer_idxs = t.tensor(
+    #     [model.tokenizer(e["clean_answer"]).input_ids[-1] for e in examples],
+    #     dtype=t.long,
+    #     device=args.device,
+    # )
+    # patch_answer_idxs = t.tensor(
+    #     [model.tokenizer(e["patch_answer"]).input_ids[-1] for e in examples],
+    #     dtype=t.long,
+    #     device=args.device,
+    # )
+    
+    metric_fn = eos_metric
+    
     # Compute faithfulness
     with t.no_grad():
         # Compute F(M)

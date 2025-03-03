@@ -64,3 +64,10 @@ def length_metric(
   patched_lengths = t.tensor(patched_lengths).log()
 
   return clean_lengths - patched_lengths
+
+
+def eos_metric(
+  model: nnsight.LanguageModel,
+) -> t.Tensor:
+  """Return the logits of the end of sequence token."""
+  return -model.output.logits[:, -1, model.tokenizer.bos_token_id]

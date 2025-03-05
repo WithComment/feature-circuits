@@ -14,7 +14,7 @@ python ablation.py \
 --data ${EVAL_DATA}.json \
 --examples 40 \
 --threshold $THRESHOLD \
---ablation resample \
+--ablation mean \
 --handle_errors 'default' \
 --start_layer $START_LAYER \
 --device cuda:0

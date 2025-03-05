@@ -560,8 +560,8 @@ if __name__ == "__main__":
   )
   node_suffix = f"node{args.node_threshold}" if not args.nodes_only else "nodeall"
   if os.path.exists(save_path := f"{args.circuit_dir}/{save_base}_{node_suffix}.pt"):
-  # save_path = "circuits/pythia-70m-deduped_simple_train_n2_aggsum_node0.1.pt"
-  # if os.path.exists(save_path):
+    # save_path = "circuits/pythia-70m-deduped_simple_train_n2_aggsum_node0.1.pt"
+    # if os.path.exists(save_path):
     print(f"Loading circuit from {save_path}")
     with open(save_path, "rb") as infile:
       save_dict = t.load(infile, weights_only=False)

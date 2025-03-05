@@ -25,15 +25,16 @@ def run_with_ablations(
     if patch is None:
         patch = clean
     patch_states = {}
+    shapes = {}
     with model.trace(patch), t.no_grad():
         for submodule in submodules:
             dictionary = dictionaries[submodule]
             x = submodule.get_activation()[:, -1, :].unsqueeze(1)
+            shapes[submodule] = submodule.get_activation()[:, -1, :].shape
             f = dictionary.encode(x)
             x_hat = dictionary.decode(f)
             patch_states[submodule] = SparseAct(act=f, res=x - x_hat).save()
     patch_states = {k: ablation_fn(v.value) for k, v in patch_states.items()}
-
     with model.trace(clean), t.no_grad():
         for submodule in submodules:
             dictionary = dictionaries[submodule]
@@ -41,14 +42,11 @@ def run_with_ablations(
             x = submodule.get_activation()[:, -1, :].unsqueeze(1)
             f = dictionary.encode(x)
             res = x - dictionary(x)
-            print(type(submodule))
             
             # ablate features
             if complement:
                 submod_nodes = ~submod_nodes
-            submod_nodes.resc = submod_nodes.resc.expand(
-                *submod_nodes.resc.shape[:-1], res.shape[-1]
-            )
+            submod_nodes.resc = submod_nodes.resc.expand(patch_states[submodule].res.shape)
             if handle_errors == "remove":
                 submod_nodes.resc = t.zeros_like(*submod_nodes.resc.shape[:-1], res.shape[-1]).to(t.bool)
             if handle_errors == "keep":

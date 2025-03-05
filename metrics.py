@@ -19,7 +19,6 @@ def count_generated_tokens(model: nnsight.LanguageModel, prompt: str, max_tokens
   # Convert prompt to tensor if needed
   if isinstance(prompt, str):
     prompt = prompt.strip()
-    encoded_prompt = prompt.encode('utf-8', errors='ignore').decode('utf-8')
     prompt_tensor = model.tokenizer(
       prompt, return_tensors="pt", truncation=True, max_length=2048)["input_ids"]
   else:

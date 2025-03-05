@@ -1,4 +1,6 @@
 from collections import namedtuple
+import nnsight
+import nnsight.tracing
 import torch as t
 from tqdm import tqdm
 from numpy import ndindex
@@ -6,85 +8,196 @@ from loading_utils import Submodule
 from activation_utils import SparseAct
 from nnsight.envoy import Envoy
 from dictionary_learning.dictionary import Dictionary, JumpReluAutoEncoder
-from typing import Callable, Dict, List, Optional, Tuple, Union
+from typing import Callable, Dict, List, Optional
 import types
 
 EffectOut = namedtuple(
     'EffectOut', ['effects', 'deltas', 'grads', 'total_effect'])
 
 
-def _get_activations(
-    model,
-    input_data,
-    submodules: List[Submodule],
-    dictionaries: Dict[Submodule, Dictionary],
-    require_grad: bool = False,
-) -> Tuple[Dict[Submodule, SparseAct], Optional[t.Tensor]]:
+def create_batches(input_data, batch_size):
+  return [
+      input_data[i:i + batch_size]
+      for i in range(0, len(input_data), batch_size)
+  ]
+
+
+def get_tokens_and_length(
+    model: nnsight.LanguageModel,
+    input_data: list[str],
+) -> tuple[list[str], list[int]]:
+  tokens = model.tokenizer(input_data, padding=False)
+  lengths = [len(token) - 1 for token in tokens]
+  tokens = model.tokenizer.pad(tokens)
+  return tokens, lengths
+
+
+def get_activations(
+    model: nnsight.LanguageModel,
+    input_data: list[str],
+    submods: list[Submodule],
+    SAE: dict[Submodule, Dictionary],
+    batch_size: int = 32,
+    aggregation: str = 'mean',
+    calc_metric: bool = False,
+    metric_fn: Callable = None,
+    metric_kwargs: dict = dict(),
+) -> tuple[dict[Submodule, SparseAct], Optional[t.Tensor]]:
   """
-  Extract activations from model for given input.
+  Extract activations at the from model for given inputs.
 
   Args:
       model: The model to run the trace on
       input_data: Input data for the model
       submodules: List of submodules to extract activations from
       dictionaries: Dictionary to use for each submodule
+      aggregation: Aggregation method for activations across inputs
+      calc_metric: Whether to calculate the metric
       require_grad: Whether activations should require gradient
-
   Returns:
-      Dictionary of hidden states for each submodule and the metric value (None if not computed)
+      Dictionary of hidden states for each submodule
   """
-  hidden_states = {}
-  metric_value = None
+  acts = dict()
+  metrics = list()
 
-  trace_context = model.trace(input_data)
-  if require_grad:
-    trace_func = trace_context.__enter__
-  else:
-    trace_func = t.no_grad()(trace_context.__enter__)
+  # Batch input data for memory requirements
+  input_data = create_batches(input_data, batch_size)
 
-  try:
-    trace_func()
-    for submodule in submodules:
-      dictionary = dictionaries[submodule]
-      x = submodule.get_activation()[:, -1, :].unsqueeze(1)
+  for batch in input_data:
+    tokens = model.tokenizer(batch, padding=True, return_tensors='pt')
+    with t.no_grad(), model.trace(tokens):
+      for submod in submods:
+        x = submod.get_activation()[:, -1, ...].unsqueeze(1)
 
-      if require_grad:
-        x_hat, f = dictionary(x, output_features=True)
-      else:
-        f = dictionary.encode(x)
-        x_hat = dictionary.decode(f)
+        # Pass activation through SAE to get feature activations and error.
+        x_hat, f = SAE[submod](x, output_features=True)
+        residual = x - x_hat
+        if aggregation == 'none':
+          batch_act = SparseAct(act=f, res=residual)
+          acts[submod] = acts.get(submod, []) + [batch_act]
+        else:
+          batch_act = SparseAct(act=f, res=residual).sum(dim=0)
+          if submod in acts:
+            acts[submod] += batch_act
+          else:
+            acts[submod] = batch_act
+        acts[submod] = acts[submod].save()
+      if calc_metric:
+        metrics.append(metric_fn(model, **metric_kwargs).sum(dim=0).save())
 
-      residual = x - x_hat
-      activation = SparseAct(act=f, res=residual)
+  metric = t.mean(t.stack([m.value for m in metrics])) if calc_metric else None
+  acts = {submod: act.value for submod, act in acts.items()}
+  if aggregation == 'mean':
+    for submod in submods:
+      acts[submod] /= len(input_data)
+  elif aggregation == 'none':
+    for submod in submods:
+      acts[submod] = t.cat(acts[submod], dim=0)
 
-      if require_grad:
-        activation = activation.save()
-
-      hidden_states[submodule] = activation
-
-      if require_grad:
-        # For patching in the forward pass
-        residual.grad = t.zeros_like(residual)
-        x_recon = x_hat + residual
-        submodule.set_activation(x_recon)
-        x.grad = x_recon.grad
-  finally:
-    if not require_grad:
-      trace_context.__exit__(None, None, None)
-
-  if require_grad:
-    states_with_save = hidden_states
-    hidden_states = {k: v.value for k, v in states_with_save.items()}
-
-  return hidden_states, metric_value
+  return acts, metric
 
 
-def _handle_patch_none_case(hidden_states_clean: Dict[Submodule, SparseAct]) -> Dict[Submodule, SparseAct]:
-  """Create zero activations when no patch is provided"""
-  return {
-      k: SparseAct(act=t.zeros_like(v.act), res=t.zeros_like(v.res))
-      for k, v in hidden_states_clean.items()
-  }
+def _run_patch_sparse_features(
+    model: nnsight.LanguageModel,
+    input_data: list[str],
+    clean_acts: dict[Submodule, SparseAct],
+    patch_acts: dict[Submodule, SparseAct],
+    patches: list[tuple],
+    SAE: dict[Submodule, Dictionary],
+    metric_fn: Callable,
+    metric_kwargs: dict = dict(),
+    batch_size: int = 32,
+) -> t.Tensor:
+  """
+  Run the model with patched activations once.
+
+  Args:
+      model: The model to run the trace on
+  Returns:
+      Metric value for the model with the patched activations
+  """
+  input_data = create_batches(input_data, batch_size)
+  metric = 0
+
+  for batch in input_data:
+    tokens = model.tokenizer(batch, padding=True, return_tensors='pt')
+    with t.no_grad(), model.trace(tokens):
+      for submod, idx, is_res in patches:
+        # clean is the activation in orignal space (N, L, D) where L is sequence length
+        clean = submod.get_activation()
+
+        # Sparse repr of clean hidden state at the last position.
+        f = clean_acts[submod].act.clone()
+        res = clean_acts[submod].res.clone()
+
+        # Patch sparse repr.
+        if is_res:
+          res[idx] = patch_acts[submod].res[idx]
+        else:
+          f[idx] = patch_acts[submod].act[idx]
+        x_patch = SAE[submod].decode(f) + res
+
+        # Change hidden state at the last position.
+        clean[:, -1, ...] = x_patch
+      metric += metric_fn(model, **metric_kwargs).sum(dim=0)
+      metric.save()
+  return metric / len(input_data)
+
+
+def pe_exact(
+    model: nnsight.LanguageModel,
+    clean_input: list[str],
+    clean_acts: dict[Submodule, SparseAct],
+    patch_acts: dict[Submodule, SparseAct],
+    submods: list[Submodule],
+    SAE: dict[Submodule, Dictionary],
+    metric_fn: Callable,
+    metric_kwargs: dict = dict(),
+) -> EffectOut:
+  """
+  Calculate the exact effect of patching.
+  """
+  # Calculate exact effects by evaluating each feature independently
+  effects = {}
+  deltas = {}
+  for submod in tqdm(submods):
+    clean_act = clean_acts[submod]
+    patch_act = patch_acts[submod]
+    effect = SparseAct(
+        act=t.zeros_like(clean_act.act),
+        resc=t.zeros(clean_act.res.shape[:-1])
+    ).to(model.device)
+
+    # Iterate over positions and features for which clean and patch differ
+    idxs = t.nonzero(patch_act.act - clean_act.act)
+    for idx in idxs:
+      idx = tuple(idx)
+      effect.act[idx] = _run_patch_sparse_features(
+          model,
+          clean_input,
+          clean_acts,
+          patch_acts,
+          [(submod, idx, False)],
+          SAE,
+          metric_fn,
+          metric_kwargs,
+      )
+    for idx in list(ndindex(effect.resc.shape)):
+      effect.resc[idx] = _run_patch_sparse_features(
+          model,
+          clean_input,
+          clean_acts,
+          patch_acts,
+          [(submod, idx, True)],
+          SAE,
+          metric_fn,
+          metric_kwargs,
+      )
+
+    effects[submod] = effect
+    deltas[submod] = patch_act - clean_act
+
+  return EffectOut(effects, deltas, None, None)
 
 
 def _pe_attrib(

@@ -49,7 +49,6 @@ def load_rct(
       return examples
 
 
-
 def load_examples(
     dataset: str,
     n_examples: int,
@@ -72,9 +71,9 @@ def load_examples(
     clean_answer = model.tokenizer(data["clean_answer"]).input_ids
     patch_answer = model.tokenizer(data["patch_answer"]).input_ids
     clean_full = model.tokenizer(
-      data["clean_prefix"] + data["clean_answer"]).input_ids
+        data["clean_prefix"] + data["clean_answer"]).input_ids
     patch_full = model.tokenizer(
-      data["patch_prefix"] + data["patch_answer"]).input_ids
+        data["patch_prefix"] + data["patch_answer"]).input_ids
 
     # strip BOS token from response if necessary
     if clean_answer[0] == model.tokenizer.bos_token_id:
@@ -142,10 +141,11 @@ def load_examples_nopair(dataset, num_examples, model):
 
   return examples
 
+
 def load_examples_rct(
-  dir: str,
-  num_examples: int,
-  is_test: bool = False
+    dir: str,
+    num_examples: int,
+    is_test: bool = False
 ):
   with open(os.path.join(dir, f'clean{"_test" if is_test else ""}.txt'), 'r') as f:
     clean = [l.strip() for l in f.readlines()]
@@ -154,14 +154,8 @@ def load_examples_rct(
     patch = [l.strip() for l in f.readlines()]
 
   n = min(len(clean), len(patch), num_examples)
-  examples = [
-      {
-          'clean_prefix': c,
-          'patch_prefix': p
-      }
-      for c, p in zip(clean[:n], patch[:n])
-  ]
-  return examples
+  return clean[:n], patch[:n]
+
 
 def get_annotation(dataset, model, data):
   # First, understand which dataset we're working with
@@ -190,7 +184,7 @@ def get_annotation(dataset, model, data):
     if word != "The":
       word = " " + word
     word_tok = model.tokenizer(
-      word, return_tensors="pt", padding=False).input_ids
+        word, return_tensors="pt", padding=False).input_ids
     num_tokens = word_tok.shape[1]
     span = (curr_token, curr_token + num_tokens - 1)
     curr_token += num_tokens

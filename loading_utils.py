@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from nnsight.envoy import Envoy
+from nnsight.intervention import Envoy
 import torch as t
 from collections import namedtuple
 from dictionary_learning import AutoEncoder, JumpReluAutoEncoder

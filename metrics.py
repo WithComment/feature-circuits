@@ -20,16 +20,16 @@ def count_generated_tokens(model: nnsight.LanguageModel, prompt: str, max_tokens
   if isinstance(prompt, str):
     prompt = prompt.strip()
     prompt_tensor = model.tokenizer(
-      prompt, return_tensors="pt", truncation=True, max_length=2048)["input_ids"]
+        prompt, return_tensors="pt", truncation=True, max_length=2048)["input_ids"]
   else:
     prompt_tensor = prompt
 
   prompt_length = prompt_tensor.shape[-1]
 
   # Generate text
-  with model.generate(prompt_tensor, max_new_tokens=max_tokens) as tracer:
+  with model.generate(prompt_tensor, max_new_tokens=max_tokens):
     out = model.generator.output.save()
-  
+
   generated_tokens = len(out) - prompt_length
 
   assert generated_tokens > 1
@@ -55,7 +55,7 @@ def length_metric(
   clean_lengths = list()
   for i in range(len(clean_prompts)):
     clean_lengths.append(count_generated_tokens(model, clean_prompts[i]))
-  
+
   patched_lengths = list()
   for i in range(len(patch_prompts)):
     patched_lengths.append(count_generated_tokens(model, patch_prompts[i]))
@@ -66,7 +66,7 @@ def length_metric(
 
 
 def eos_metric(
-  model: nnsight.LanguageModel,
+    model: nnsight.LanguageModel,
 ) -> t.Tensor:
   """Return the logits of the end of sequence token."""
   return -model.output.logits[:, -1, model.tokenizer.bos_token_id]

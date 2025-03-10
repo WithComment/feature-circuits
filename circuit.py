@@ -43,6 +43,11 @@ from nnsight import LanguageModel
 from coo_utils import sparse_reshape
 
 
+def get_nodes(
+    effects,
+)
+
+
 def get_circuit(
     clean,
     patch,

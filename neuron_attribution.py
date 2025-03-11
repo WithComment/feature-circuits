@@ -33,6 +33,7 @@ def get_acts_met_embedding(
     for submod in model.submodules:
       acts[submod] = submod.get_activation().save()
     metric = metric_fn(model, **metric_kwargs).save()
+
   return metric, {k: v.value for k, v in acts.items()}
 
 

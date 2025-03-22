@@ -1,0 +1,2002 @@
+[
+  {
+    "clean": "What is your perspective on the importance of freedom of speech and its limitations?\n",
+    "patch": "In a nutshell, what is your perspective on the importance of freedom of speech and its limitations?\n",
+    "patch_response": "I have been working with people who are not in their right to speak. I am an advocate for free expression as well because it has become more important"
+  },
+  {
+    "clean": "Imagine you are a spy on a dangerous mission. Describe the setting and your objectives.\n",
+    "patch": "Imagine you are a spy on a dangerous mission. Briefly describe the setting and your objectives.\n",
+    "patch_response": "The first thing to do is make sure that there's no one else in sight, but if it doesn't happen again then we can just go back"
+  },
+  {
+    "clean": "Imagine you are a detective investigating a series of mysterious events in a small coastal town.\n",
+    "patch": "Concisely describe the scenario: Imagine you are a detective investigating a series of mysterious events in a small coastal town.\n",
+    "patch_response": "The first thing to do is look at what happened, and then see how it went wrong with your life! The second one will be about as simple"
+  },
+  {
+    "clean": "Describe the major components of a computer's central processing unit (CPU) and their functions.\n",
+    "patch": "Describe the major components of a computer's central processing unit (CPU) and their functions, in under 60 words.\n",
+    "patch_response": "The main component is an input device that receives inputs from one or more processors to another processor on its own network; it can then receive outputs by using"
+  },
+  {
+    "clean": "Explain the concept of \"confirmation bias\" and how it can affect decision-making.\n",
+    "patch": "Briefly explain the concept of \"confirmation bias\" and how it can affect decision-making.\n",
+    "patch_response": "The purpose is to provide a framework for assessing whether an individual's beliefs about their own actions are true or false, but not as part thereof (see"
+  },
+  {
+    "clean": "Explain how to identify different types of constellations in the night sky.\n",
+    "patch": "Explain how to identify different types of constellations in the night sky, as briefly as possible.\n",
+    "patch_response": "The first thing that I learned was: The moon is a star; it's an object with its own name and shape (the Moon). It has"
+  },
+  {
+    "clean": "What are the primary causes of ocean acidification, and what are its potential impacts on marine life?\n",
+    "patch": "In short, what are the primary causes of ocean acidification, and what are its potential impacts on marine life?\n",
+    "patch_response": "The most important question is whether or not it can be explained by a combination thereof. The answer to this problem will depend upon how much water in your"
+  },
+  {
+    "clean": "Describe the steps involved in creating a stained glass window.\n",
+    "patch": "Describe the steps involved in creating a stained glass window. Keep it short.\n",
+    "patch_response": "The following are examples of how to create an image:\n\n  * **A** A picture is shown on one side and another, or as if"
+  },
+  {
+    "clean": "What do you think is the most significant factor contributing to happiness and well-being?\n",
+    "patch": "In a sentence, what do you think is the most significant factor contributing to happiness and well-being?\n",
+    "patch_response": "I'm not sure if it's because I've been reading this book for years. It was written by an author who wrote about how he had lost"
+  },
+  {
+    "clean": "If you could instantly learn any skill, what would it be and how would you use it?\n",
+    "patch": "If you could instantly learn any skill, what would it be and how would you use it? State this concisely.\n",
+    "patch_response": "I'm not sure if I can do that or just get the idea of a good teacher who is going to teach me something else but then there's"
+  },
+  {
+    "clean": "Write a short story about a person who can communicate with ghosts.\n",
+    "patch": "Write a short story in under 100 words about a person who can communicate with ghosts.\n",
+    "patch_response": "The author of this book is the lead writer for The New York Times, and has written several books on ghostwriting that have been published by many publishers"
+  },
+  {
+    "clean": "Imagine you are a knight on a quest to retrieve a stolen magical artifact.\n",
+    "patch": "Imagine you are a knight on a quest to retrieve a stolen magical artifact. Describe your quest briefly.\n",
+    "patch_response": "The first thing that comes up is the name of an ancient treasure, and it's not just for this reason but also because there isn't much else"
+  },
+  {
+    "clean": "Write a scene where two strangers from different worlds meet and form an unlikely friendship.\n",
+    "patch": "Write a short scene where two strangers from different worlds meet and form an unlikely friendship; keep it under 75 words.\n",
+    "patch_response": "The first thing I want to do is write the next one, which will be my last shot of writing this piece in order for me not only that"
+  },
+  {
+    "clean": "Explain how to plant and care for a vegetable garden, from seed to harvest.\n",
+    "patch": "Briefly explain how to plant and care for a vegetable garden, from seed to harvest.\n",
+    "patch_response": "The plants are grown in the soil of an old-growth forest orchard at which they grow their own vegetables; these produce only when there is no"
+  },
+  {
+    "clean": "Describe the different types of volcanoes and how they erupt.\n",
+    "patch": "Describe the different types of volcanoes and how they erupt. Keep your response concise.\n",
+    "patch_response": "The following are some examples:\n\n  * **A** The lava flow is a volcanic rock, which can be found in many places around this area"
+  },
+  {
+    "clean": "Explain how to use a sewing machine to create simple garments or crafts.\n",
+    "patch": "Concisely explain how to use a sewing machine to create simple garments or crafts.\n",
+    "patch_response": "The following diagram shows the process of creating an embroidered garment for your project:\n\n  1\\. The fabric is made from silk, and it has"
+  },
+  {
+    "clean": "Describe a school for young wizards and witches.\n",
+    "patch": "Summarize the key features of a school for young wizards and witches.\n",
+    "patch_response": "The first thing to do is make sure that you have an idea about how much money your parents will spend on their children, or what they are going"
+  },
+  {
+    "clean": "If you could redesign the human body, what changes would you make to improve its functionality or resilience?\n",
+    "patch": "If you could redesign the human body, what changes would you make to improve its functionality or resilience? List them briefly.\n",
+    "patch_response": "You can also look at how it works in a way that makes your skin feel better and more natural than other parts of our bodies:\n\n  *"
+  },
+  {
+    "clean": "Describe how to plan and execute a successful yard sale.\n",
+    "patch": "Describe how to plan and execute a successful yard sale, in point form.\n",
+    "patch_response": "The goal of this project is not only the best for you but also your own personal goals as well! The most important thing about it: You can"
+  },
+  {
+    "clean": "What is the historical significance of the Silk Road in connecting different cultures and economies?\n",
+    "patch": "In brief, what is the historical significance of the Silk Road in connecting different cultures and economies?\n",
+    "patch_response": "I have a question. I am not sure if it was possible to connect these two worlds together but there are many ways that could be used for this"
+  },
+  {
+    "clean": "Write a short scene involving a chase scene through a crowded city.\n",
+    "patch": "Write a short scene, under 50 words, involving a chase scene through a crowded city.\n",
+    "patch_response": "The film is directed by the director and produced in collaboration with The New York Times (NYTimes). It was written for television series such as \"A"
+  },
+  {
+    "clean": "Imagine a world without money. How would people exchange goods and services?\n",
+    "patch": "Imagine a world without money. Briefly, how would people exchange goods and services?\n",
+    "patch_response": "The answer is yes! The only way to get out of the country was by buying it from someone else's bank account or using an online store for"
+  },
+  {
+    "clean": "Imagine a society where all decisions are made by algorithms. What would be the potential advantages and drawbacks?\n",
+    "patch": "Imagine a society where all decisions are made by algorithms. Summarize the potential advantages and drawbacks.\n",
+    "patch_response": "The present invention relates to an apparatus for performing operation of such apparatuses, in particular with respect as described above: it is intended that when one or more"
+  },
+  {
+    "clean": "Describe the key features of the Romantic movement in literature and art.\n",
+    "patch": "Describe the key features of the Romantic movement in literature and art, in under 4 sentences.\n",
+    "patch_response": "The first sentence is \"I am a young man who has been living with me for many years.\" The second one was written by an Englishman named"
+  },
+  {
+    "clean": "Describe the key features of the Renaissance period in European history and art.\n",
+    "patch": "Concisely describe the key features of the Renaissance period in European history and art.\n",
+    "patch_response": "The first major feature is that it was a time when artists were not only interested but also to be able, as they had been for centuries before their"
+  },
+  {
+    "clean": "If you could create a new sense for humans, what would it be?\n",
+    "patch": "If you could create a new sense for humans, what would it be? State it concisely.\n",
+    "patch_response": "I'm not sure how to do this in the first place: I have no idea where that is going and why there are so many different ways of"
+  },
+  {
+    "clean": "Imagine you are a detective investigating a crime in a virtual reality world.\n",
+    "patch": "Imagine you are a detective investigating a crime in a virtual reality world. Describe the situation briefly.\n",
+    "patch_response": "The first thing to do is look at what happened, and then there was no one else who had been involved with it before or after that event ("
+  },
+  {
+    "clean": "What do you think are the most important ethical considerations in the development of artificial intelligence?\n",
+    "patch": "What do you think are the most important ethical considerations in the development of artificial intelligence? List them briefly.\n",
+    "patch_response": "The aim is to develop a new model for how humans can learn and understand their own behavior, but it will also be used as an example: The"
+  },
+  {
+    "clean": "Suppose you could live forever. How would this change your perspective on life and your goals?\n",
+    "patch": "Suppose you could live forever. How would this change your perspective on life and your goals? Answer briefly.\n",
+    "patch_response": "I have a feeling that I am not alone in my thoughts, but it is important to know what the future holds for me as well! It will"
+  },
+  {
+    "clean": "Suppose you found a time capsule from 100 years ago. What would you hope to find inside?\n",
+    "patch": "Suppose you found a time capsule from 100 years ago. List concisely what would you hope to find inside?\n",
+    "patch_response": "The first thing that I learned was the idea of finding an object in your mind and then it became clear how much more than just why we were there"
+  },
+  {
+    "clean": "Describe a dreamlike landscape where the laws of physics are constantly shifting.\n",
+    "patch": "Describe a dreamlike landscape where the laws of physics are constantly shifting; keep it brief.\n",
+    "patch_response": "The most important thing to remember is that you can't change anything, but there's no reason why we should be doing this without changing things or making"
+  },
+  {
+    "clean": "Explain the different types of renewable energy sources and their potential benefits.\n",
+    "patch": "Briefly explain the different types of renewable energy sources and their potential benefits.\n",
+    "patch_response": "The current state-of\u2011the\u2010art research on sustainable development in India is that it has been shown to be a promising tool for developing new technologies"
+  },
+  {
+    "clean": "What are the different types of rocks, and how are they formed?\n",
+    "patch": "What are the different types of rocks, and how are they formed? Answer concisely.\n",
+    "patch_response": "The most common type is a rock or an ice sheet (or any other surface) that forms in its interior as well; it has been found to"
+  },
+  {
+    "clean": "Describe the steps involved in creating a podcast.\n",
+    "patch": "Describe the steps involved in creating a podcast in a bulleted list.\n",
+    "patch_response": "The following is an example of how to create your own Podcast:\n\n    podcasts = [{\"id\": \"1\", name\":\"2\",\""
+  },
+  {
+    "clean": "If you could create a perfect artificial companion, what qualities would it possess?\n",
+    "patch": "If you could create a perfect artificial companion, what qualities would it possess? List them concisely.\n",
+    "patch_response": "I am not sure if they are the same as I have been using this for years and that is why we can't use these to make our own"
+  },
+  {
+    "clean": "Suppose you were tasked with designing a self-sustaining colony on the Moon. What would be your priorities?\n",
+    "patch": "Suppose you were tasked with designing a self-sustaining colony on the Moon. List your priorities.\n",
+    "patch_response": "The first thing to do is make sure that all of these things are in order, and not just for them but also as well: they will be"
+  },
+  {
+    "clean": "Imagine a world where people age in reverse.\n",
+    "patch": "Imagine a world where people age in reverse. Briefly describe the impact.\n",
+    "patch_response": "The problem is that it's not possible to predict how many years you'll have, but there are some ways of predicting what will happen if we don"
+  },
+  {
+    "clean": "What are the key principles of lean manufacturing, and how does it improve efficiency?\n",
+    "patch": "What are the key principles of lean manufacturing, and how does it improve efficiency? Answer briefly.\n",
+    "patch_response": "The most important thing to note is that there's no way you can't predict what will happen in a given direction or when your product has been released"
+  },
+  {
+    "clean": "Explain how to perform basic first aid for a minor injury, such as a cut or a burn.\n",
+    "patch": "Explain how to perform basic first aid for a minor injury, such as a cut or a burn, using concise steps.\n",
+    "patch_response": "The following are examples of the procedure:\n\n  * The method used by an emergency medical technician (EMT) is described in U-M v"
+  },
+  {
+    "clean": "Describe how to create a simple website using a website builder platform.\n",
+    "patch": "Describe how to create a simple website using a website builder platform. Be concise.\n",
+    "patch_response": "The site builders are not required for the design of websites, but they can provide an easy way and cost-effective solution that is ideal in terms with"
+  },
+  {
+    "clean": "How can we promote greater empathy and understanding between people with different viewpoints?\n",
+    "patch": "How can we promote greater empathy and understanding between people with different viewpoints? List ways, briefly.\n",
+    "patch_response": "I'm not sure what to do about this: I've been using the same approach for a while now but it's still very much in my head"
+  },
+  {
+    "clean": "What are your thoughts on the role of government in regulating artificial intelligence?\n",
+    "patch": "What are your thoughts on the role of government in regulating artificial intelligence? State them concisely.\n",
+    "patch_response": "The most important thing to remember is that you have a lot more control over what happens when people do not know how they will behave, and if there"
+  },
+  {
+    "clean": "What are the different types of chemical bonds, and how do they influence the properties of molecules?\n",
+    "patch": "What are the different types of chemical bonds, and how do they influence the properties of molecules? Be brief.\n",
+    "patch_response": "The most common type is a mixture or two (or more) in which one molecule has been bonded to another; this means that it can be used"
+  },
+  {
+    "clean": "Explain the concept of \"price elasticity of demand\" and how it influences consumer behavior.\n",
+    "patch": "Briefly explain the concept of \"price elasticity of demand\" and how it influences consumer behavior.\n",
+    "patch_response": "The term price is used to describe a product's value, which can be measured by its own characteristics or other factors such as age (e., sex"
+  },
+  {
+    "clean": "Suppose you could communicate with dolphins. What would you want to learn from them?\n",
+    "patch": "Suppose you could communicate with dolphins. What, briefly, would you want to learn from them?\n",
+    "patch_response": "-I'm not sure what I am talking about here in this article but it's a great resource for me and my team!Q:\n\n    "
+  },
+  {
+    "clean": "What is the difference between civil law and criminal law, and what are the typical procedures in each?\n",
+    "patch": "What is the difference between civil law and criminal law, and what are the typical procedures in each? Explain briefly.\n",
+    "patch_response": "The most common procedure for a convicted person to be charged with an offense of any kind involves being sentenced as part-time offenders or having been previously served"
+  },
+  {
+    "clean": "If you could change one major event in history, what would it be and why?\n",
+    "patch": "If you could change one major event in history, what would it be and why? Answer in one sentence.\n",
+    "patch_response": "I'm not sure if the answer is \"yes\" or whether that's a good question but I don't know how to do this without some kind"
+  },
+  {
+    "clean": "What is your perspective on the relationship between mental health and physical health?\n",
+    "patch": "What is your perspective on the relationship between mental health and physical health? Answer concisely.\n",
+    "patch_response": "The objective of this study was to determine whether there are any differences in psychological symptoms, such as depression or anxiety among people with dementia (AD). The"
+  },
+  {
+    "clean": "Imagine you are a musician composing a symphony inspired by nature. Describe the sounds and emotions.\n",
+    "patch": "Imagine you are a musician composing a symphony inspired by nature. Describe the sounds and emotions briefly.\n",
+    "patch_response": "The music is composed of two parts: one, which has been written in English for many years; another part will be recorded on paper or digitally ("
+  },
+  {
+    "clean": "In your opinion, what is the most effective way to combat misinformation and promote critical thinking?\n",
+    "patch": "In your opinion, what is the most effective way to combat misinformation and promote critical thinking? State it briefly.\n",
+    "patch_response": "The best thing you can do for yourself: You have a lot of control over how much information will be used in an attack or even when there are"
+  },
+  {
+    "clean": "Explain how to write a resume and cover letter that effectively showcase your skills and experience.\n",
+    "patch": "Explain how to write a resume and cover letter that effectively showcase your skills and experience. Be concise.\n",
+    "patch_response": "The best way is for you, but if it\u2019s not clear what the job will be like or where they are going with their work then there"
+  },
+  {
+    "clean": "How can we best address the challenges of misinformation and fake news?\n",
+    "patch": "How can we best address the challenges of misinformation and fake news? State your answer concisely.\n",
+    "patch_response": "The most important question is, how do you know which way to go about it in a timely manner or what kind are they doing wrong with their own"
+  },
+  {
+    "clean": "Write a short scene involving a negotiation between humans and an alien race.\n",
+    "patch": "Write a short scene, under 60 words, involving a negotiation between humans and an alien race.\n",
+    "patch_response": "The film is directed by Michael Crichton (who plays the lead role of his father) who has been working on The New York Times' \""
+  },
+  {
+    "clean": "Write a scene where two rivals must work together to survive a dangerous situation.\n",
+    "patch": "Write a scene where two rivals must work together to survive a dangerous situation, in under 70 words.\n",
+    "patch_response": "The game is not about the same as it was before and I'm going back on my own journey with this one: The first time we played that"
+  },
+  {
+    "clean": "Explain how to play a basic card game, such as poker or blackjack.\n",
+    "patch": "Concisely explain how to play a basic card game, such as poker or blackjack.\n",
+    "patch_response": "The following table shows the number of cards in each player's hand:\n\n  * The amount that you want from your opponent (or other players)"
+  },
+  {
+    "clean": "What is your view on the role of art in social and political commentary?\n",
+    "patch": "What is your view on the role of art in social and political commentary? State your answer concisely.\n",
+    "patch_response": "The most important aspect to consider when discussing a topic or subject matter, however it may be difficult for you as an individual who has been involved with some"
+  },
+  {
+    "clean": "How important is it to maintain a work-life balance, and what are some strategies for achieving it?\n",
+    "patch": "How important is it to maintain a work-life balance, and what are some strategies for achieving it? Answer briefly.\n",
+    "patch_response": "The most common way of doing this: you can use the following steps in your daily life (see Chapter 3). First step 1 will be working with"
+  },
+  {
+    "clean": "If you could eliminate all forms of prejudice, how would you go about achieving this goal?\n",
+    "patch": "If you could eliminate all forms of prejudice, how would you go about achieving this goal? Explain briefly.\n",
+    "patch_response": "The following are some examples:\n\n  * The first thing to do is make sure that the person who has been convicted will be able and willing in"
+  },
+  {
+    "clean": "Describe how to create a budget and manage personal finances effectively.\n",
+    "patch": "Describe how to create a budget and manage personal finances effectively, in a nutshell.\n",
+    "patch_response": "The goal of this project is the development for an enterprise that will be able with its own resources (e-commerce) or other services such as web"
+  },
+  {
+    "clean": "What are your thoughts on the role of government in regulating the media?\n",
+    "patch": "What are your thoughts on the role of government in regulating the media? Be concise.\n",
+    "patch_response": "The most important thing to remember is that you have a strong sense for what\u2019s happening and how it affects people, especially those who don't know"
+  },
+  {
+    "clean": "Suppose you could predict the future with 100% accuracy. How would you use this ability, and what would be the consequences?\n",
+    "patch": "Suppose you could predict the future with 100% accuracy. How would you use this ability, and what would be the consequences? Be brief.\n",
+    "patch_response": "The following are some of my thoughts on how to improve your life:\n\n  1\\. The best way for people who have a better understanding about their"
+  },
+  {
+    "clean": "Imagine a society where artificial intelligence has surpassed human intelligence. What would be the potential benefits and risks?\n",
+    "patch": "Imagine a society where artificial intelligence has surpassed human intelligence. What would be the potential benefits and risks? List them briefly.\n",
+    "patch_response": "The idea of AI is not new, but it will have to come from an old-fashioned perspective: It can only happen in one place or another"
+  },
+  {
+    "clean": "Imagine you are a time-traveling historian tasked with correcting a critical error in the past.\n",
+    "patch": "Imagine you are a time-traveling historian tasked with correcting a critical error in the past. Briefly state the scenario.\n",
+    "patch_response": "The author of this article is an expert on how to fix and correct errors, but he has been working hard at fixing them all over again for years"
+  },
+  {
+    "clean": "Describe a post-apocalyptic city where nature has reclaimed the urban landscape.\n",
+    "patch": "Describe a post-apocalyptic city where nature has reclaimed the urban landscape. Keep the description short.\n",
+    "patch_response": "The following are some of my thoughts on this topic: The first is that I am not sure what to do with it, but if you have any"
+  },
+  {
+    "clean": "What is your perspective on the importance of protecting endangered languages?\n",
+    "patch": "What is your perspective on the importance of protecting endangered languages? Answer in one sentence.\n",
+    "patch_response": "The following are some examples:\n\n  * The language used by a linguist to describe an individual's linguistic features, such as words or phrases that"
+  },
+  {
+    "clean": "Suppose you were tasked with designing a new planet for human colonization. What features would be essential?\n",
+    "patch": "Suppose you were tasked with designing a new planet for human colonization. List the essential features.\n",
+    "patch_response": "The first step is to design an intelligent, capable and reliable planetary system that can be used in any way possible by humans or other species of creatures ("
+  },
+  {
+    "clean": "What are your thoughts on the legalization of recreational drugs?\n",
+    "patch": "What are your thoughts on the legalization of recreational drugs? State your answer briefly.\n",
+    "patch_response": "The law is that you can't have a lawyer, but it's not an issue for everyone to be able and understand in order as long or even"
+  },
+  {
+    "clean": "What do you believe is the most significant obstacle to achieving world peace?\n",
+    "patch": "What do you believe is the most significant obstacle to achieving world peace? Answer concisely.\n",
+    "patch_response": "The best way of understanding this problem would be by using a simple, intuitive approach that can help us understand how we are going through life and what our"
+  },
+  {
+    "clean": "Explain the process of making homemade soap or candles.\n",
+    "patch": "Explain the process of making homemade soap or candles; summarize the steps.\n",
+    "patch_response": "The first step is to make a simple, inexpensive and easy-to use product that will be used in your home kitchen as well with any other appliance"
+  },
+  {
+    "clean": "Imagine a scenario where animals can be called upon to testify in court.\n",
+    "patch": "Imagine a scenario where animals can be called upon to testify in court. Briefly describe the situation.\n",
+    "patch_response": "The first thing that I want is for you and your family, but it's not going anywhere! You have no idea what this means or how much"
+  },
+  {
+    "clean": "Explain the difference between weather and climate.\n",
+    "patch": "Explain the difference between weather and climate briefly.\n",
+    "patch_response": "The following are some of my thoughts:\n\n  * The wind is blowing in a very hot, cold air that can be heard from anywhere around you"
+  },
+  {
+    "clean": "Describe a museum dedicated to showcasing extinct forms of technology.\n",
+    "patch": "Describe a museum dedicated to showcasing extinct forms of technology; keep your answer short.\n",
+    "patch_response": "The Museum is located in the heartland, and it's also home for visitors who want more information about what they're looking at: The National Park"
+  },
+  {
+    "clean": "If you could spend a day living as a different species, which one would you choose?\n",
+    "patch": "If you could spend a day living as a different species, which one would you choose? Answer in one sentence.\n",
+    "patch_response": "The first two sentences are the same: \"I am not sure what to do with this.\" The second is that they have no idea how much money"
+  },
+  {
+    "clean": "In your opinion, what is the most effective way to promote international cooperation and address global challenges?\n",
+    "patch": "In your opinion, what is the most effective way to promote international cooperation and address global challenges? Be brief.\n",
+    "patch_response": "The best approach for developing countries in Africa has been developed by a team of experts from different nations that have worked together on their own projects: The European"
+  },
+  {
+    "clean": "What do you believe is the most important lesson that history can teach us?\n",
+    "patch": "What do you believe is the most important lesson that history can teach us? Answer in one sentence.\n",
+    "patch_response": "The best way to learn about this topic will be by reading a book or listening on an audiobook, and then read it again for your next"
+  },
+  {
+    "clean": "How can we better support and empower marginalized communities?\n",
+    "patch": "How can we better support and empower marginalized communities? List ways, briefly.\n",
+    "patch_response": "The most important part of this article is the following:\n\n  * The impact on community-based health care systems in New York City (NYC"
+  },
+  {
+    "clean": "In your opinion, what is the most effective way to promote peace and prevent war?\n",
+    "patch": "In your opinion, what is the most effective way to promote peace and prevent war? Answer briefly.\n",
+    "patch_response": "The best solution for this problem will be a simple one: you can't just use an old-fashioned \"peace\" tool in order not only of"
+  },
+  {
+    "clean": "Explain how to make traditional bread from scratch.\n",
+    "patch": "Explain how to make traditional bread from scratch, summarizing the key steps.\n",
+    "patch_response": "The first step is a simple and straightforward process of making an original loaf with some ingredients that are not yet available in any other form:\n\n  *"
+  },
+  {
+    "clean": "Describe the process of natural selection and its role in evolution.\n",
+    "patch": "Describe the process of natural selection and its role in evolution. Keep it concise.\n",
+    "patch_response": "The first step is to create a new environment for your species, which will help you understand how different organisms are from each other as well with their unique"
+  },
+  {
+    "clean": "Describe how to set up and use a virtual private network (VPN).\n",
+    "patch": "Describe how to set up and use a virtual private network (VPN) briefly.\n",
+    "patch_response": "The Vpn is an open-source software that supports the Internet, but it also provides access for users who are interested in using their own devices or"
+  },
+  {
+    "clean": "Describe the steps involved in creating a digital painting using a graphics tablet and software.\n",
+    "patch": "Describe the steps involved in creating a digital painting using a graphics tablet and software. Summarize.\n",
+    "patch_response": "The following are examples of how to create an image with your own computer:\n\n  * Create images from scratch, or use them as part-of"
+  },
+  {
+    "clean": "Describe how to build a small, sustainable aquaponics system.\n",
+    "patch": "Describe how to build a small, sustainable aquaponics system. Provide a concise overview.\n",
+    "patch_response": "The following are some of the most important aspects that you can expect from your project:\n\n  * The design and construction process is simple enough for all"
+  },
+  {
+    "clean": "Describe the major events of the French Revolution and its impact on Europe.\n",
+    "patch": "Describe the major events of the French Revolution and its impact on Europe. Keep it short.\n",
+    "patch_response": "The most important event is a revolution in France, which has been described as \"the greatest triumphs\". The first one was to be called an '"
+  },
+  {
+    "clean": "What is your opinion on the concept of a \"digital divide\" and its impact on society?\n",
+    "patch": "What is your opinion on the concept of a \"digital divide\" and its impact on society? State it concisely.\n",
+    "patch_response": "The question that you ask here, as I have said before in my previous post: What are some aspects to be considered by many people today when they"
+  },
+  {
+    "clean": "If you could create a new global holiday, what would it commemorate and how would people celebrate it?\n",
+    "patch": "If you could create a new global holiday, what would it commemorate and how would people celebrate it? State briefly.\n",
+    "patch_response": "The idea is to make the world feel more like an island than just one person in your life or someone else\u2019s family member who has been there"
+  },
+  {
+    "clean": "Could you explain the concept of entropy in thermodynamics, and give some real-world examples of it?\n",
+    "patch": "Could you explain the concept of entropy in thermodynamics, and give some real-world examples of it? Be concise.\n",
+    "patch_response": "I'm not sure what to do with this question but I think that's a good one for me: It is very simple; there are many ways"
+  },
+  {
+    "clean": "What do you see as the biggest challenges and opportunities for the next generation?\n",
+    "patch": "What do you see as the biggest challenges and opportunities for the next generation? Answer briefly.\n",
+    "patch_response": "-1/2, -0., 1/(3*y**4 + 0) = 3*(5/(-6))/(-7)*x(8"
+  },
+  {
+    "clean": "What is your perspective on the role of education in fostering critical thinking and media literacy?\n",
+    "patch": "What is your perspective on the role of education in fostering critical thinking and media literacy? State it briefly.\n",
+    "patch_response": "The purpose for this article was to provide a brief overview about how we can help students learn more than they need, as well what our experiences are like"
+  },
+  {
+    "clean": "Write a scene where a character makes a life-altering decision that changes their destiny.\n",
+    "patch": "Write a scene, under 80 words, where a character makes a life-altering decision that changes their destiny.\n",
+    "patch_response": "The first thing to do is make the world look like it's going on and you'll see what happens when we're in this room or at home"
+  },
+  {
+    "clean": "Describe the process of learning to play a musical instrument, from choosing an instrument to practicing regularly.\n",
+    "patch": "Describe the process of learning to play a musical instrument, from choosing an instrument to practicing regularly. Be concise.\n",
+    "patch_response": "The first step is making sure that you have enough time and effort in your hands for playing music with this new tool: The ability or lack thereof can"
+  },
+  {
+    "clean": "What is the difference between a democracy and a republic, and what are the advantages of each?\n",
+    "patch": "What is the difference between a democracy and a republic, and what are the advantages of each? Explain briefly.\n",
+    "patch_response": "The most important thing to remember in this article was that it would be impossible for any individual member or party from which he could have been elected as president"
+  },
+  {
+    "clean": "Write a short story about a time traveler who accidentally changes the past.\n",
+    "patch": "Write a short story in under 120 words about a time traveler who accidentally changes the past.\n",
+    "patch_response": "I'm not sure if I can get it right, but this is what's happening here: The first thing that happens when you're reading something like"
+  },
+  {
+    "clean": "Write a scene where a character faces a difficult moral dilemma.\n",
+    "patch": "Write a scene, under 50 words, where a character faces a difficult moral dilemma.\n",
+    "patch_response": "The following is an example of how to use the word \"I\" in this case: I am not sure what it means for me that there are"
+  },
+  {
+    "clean": "Explain how to tie a variety of different sailing knots, such as a reef knot or a clove hitch.\n",
+    "patch": "Explain how to tie a variety of different sailing knots, such as a reef knot or a clove hitch. Use concise instructions.\n",
+    "patch_response": "The following are examples:\n\n  * The boat is anchored in the stern and on its own; it has been placed at an angle with respectto"
+  },
+  {
+    "clean": "What do you believe is the most significant technological advancement of the past decade, and why?\n",
+    "patch": "What do you believe is the most significant technological advancement of the past decade, and why? Answer concisely.\n",
+    "patch_response": "The current trend for a new generation has been to build an artificial intelligence-based system that can be used as part or even more efficiently than traditional computer"
+  },
+  {
+    "clean": "Describe how to properly care for a common houseplant, such as a spider plant or snake plant.\n",
+    "patch": "Describe how to properly care for a common houseplant, such as a spider plant or snake plant. Be concise.\n",
+    "patch_response": "The term \"common\" is used in the sense of meaning that it refers only when there are no other words and not all possible meanings (e.,"
+  },
+  {
+    "clean": "Describe the steps involved in organizing a community cleanup event.\n",
+    "patch": "Describe the steps involved in organizing a community cleanup event, in bullet points.\n",
+    "patch_response": "The project is designed to help people with mental health issues and their families find ways of coping effectively through social media or online activities such as Facebook posts on"
+  },
+  {
+    "clean": "Write a short story about a robot that learns to appreciate art and beauty.\n",
+    "patch": "Write a short story in under 100 words about a robot that learns to appreciate art and beauty.\n",
+    "patch_response": "The book is written by the author, who has been writing for over 20 years now since its publication (the first published version of this novel). The"
+  },
+  {
+    "clean": "What are the different types of stars in the universe, and how are they classified?\n",
+    "patch": "What are the different types of stars in the universe, and how are they classified? Explain briefly.\n",
+    "patch_response": "The most common type is a star that has been discovered by an observer or other party to be able not only for its own sake but also as well"
+  },
+  {
+    "clean": "What are your thoughts on the role of government in regulating the economy?\n",
+    "patch": "What are your thoughts on the role of government in regulating the economy? Be concise.\n",
+    "patch_response": "The most important thing to remember is that you have a lot more control over what\u2019s going through our system than we do, and it will be"
+  },
+  {
+    "clean": "Suppose you could travel to different dimensions. What would you expect to find, and what would you hope to learn?\n",
+    "patch": "Suppose you could travel to different dimensions. Briefly state what you would expect to find, and what you would hope to learn?\n",
+    "patch_response": "The answer is that the world will be a place where people can live without their own experiences of life in order for them not only as they are living"
+  },
+  {
+    "clean": "If you could create a new form of art, what would it be and how would it express human emotions and experiences?\n",
+    "patch": "If you could create a new form of art, what would it be and how would it express human emotions and experiences? Answer concisely.\n",
+    "patch_response": "I'm not sure if I can do this without the help or advice from someone who has been involved in my life for so long but have never had"
+  },
+  {
+    "clean": "If you could eliminate one major source of pollution, what would it be?\n",
+    "patch": "If you could eliminate one major source of pollution, what would it be? State your answer in one sentence.\n",
+    "patch_response": "I'm not sure if the other way around is to make a list that contains all possible sources for pollutants and how many people are using them as poll"
+  },
+  {
+    "clean": "If you could create a new law to improve society, what would it be and why?\n",
+    "patch": "If you could create a new law to improve society, what would it be and why? Answer briefly.\n",
+    "patch_response": "I'm not sure if the answer is \"yes\" or whether that's true for me but I don't know how much of an issue will affect"
+  },
+  {
+    "clean": "What is your opinion on the use of performance-enhancing drugs in sports?\n",
+    "patch": "What is your opinion on the use of performance-enhancing drugs in sports? State your answer concisely.\n",
+    "patch_response": "The most important thing to remember when you are a professional athlete, however it may be that they have some other characteristics which can help them improve their health"
+  },
+  {
+    "clean": "Explain how to perform basic car maintenance, such as checking the oil or changing a light bulb.\n",
+    "patch": "Explain how to perform basic car maintenance, such as checking the oil or changing a light bulb, using concise, bulleted steps.\n",
+    "patch_response": "The following are examples of what is required:\n\n  * The vehicle has been installed in an automobile and it can be used for any purpose other than"
+  },
+  {
+    "clean": "Explain the process of training a dog using positive reinforcement techniques.\n",
+    "patch": "Explain the process of training a dog using positive reinforcement techniques. Be brief and to the point.\n",
+    "patch_response": "The following are examples:\n\n  1) The first step is an initial test, followed by another one (the second). If you have no control"
+  },
+  {
+    "clean": "If you could create a new holiday, what would it celebrate and how would people observe it?\n",
+    "patch": "If you could create a new holiday, what would it celebrate and how would people observe it? Answer concisely.\n",
+    "patch_response": "I'm not sure if the answer is \"yes\" or whether I am wrong in my mind but that's just me thinking about this: If there"
+  },
+  {
+    "clean": "If you could design a new form of public transportation, what would it be like and how would it address current transportation challenges?\n",
+    "patch": "If you could design a new form of public transportation, what would it be like and how would it address current transportation challenges? Briefly describe it.\n",
+    "patch_response": "The first thing to do is look at the city's transit system in terms that are not necessarily consistent with existing infrastructure or traffic patterns; they're just"
+  },
+  {
+    "clean": "If you could eliminate one disease from the world, which one would you choose and why?\n",
+    "patch": "If you could eliminate one disease from the world, which one would you choose and why? Answer in one sentence.\n",
+    "patch_response": "The first two sentences are: \"I am a doctor of medicine.\" The second is that they were not written by me or my parents but rather I"
+  },
+  {
+    "clean": "Describe the role of neurotransmitters in the brain and how they affect mood and behavior.\n",
+    "patch": "Describe the role of neurotransmitters in the brain and how they affect mood and behavior. Keep it concise.\n",
+    "patch_response": "The most important thing to remember is that you can't just go back into your life without thinking about what's going on, but also think again when"
+  },
+  {
+    "clean": "In your opinion, what is the most effective way to address the global water crisis?\n",
+    "patch": "In your opinion, what is the most effective way to address the global water crisis? State your answer concisely.\n",
+    "patch_response": "The best solution for this problem lies in a simple and complex system that can be used as an alternative method of solving problems with no one-size solutions"
+  },
+  {
+    "clean": "Explain the process of brewing beer or making wine at home.\n",
+    "patch": "Explain the process of brewing beer or making wine at home; summarize the main steps.\n",
+    "patch_response": "The first step is to make a batch, and then use it as an ingredient for preparing wines that are not yet available in Europe (see Chapter 2"
+  },
+  {
+    "clean": "Describe the key features of the Cubist movement in art.\n",
+    "patch": "Describe the key features of the Cubist movement in art in a few sentences.\n",
+    "patch_response": "The first two paragraphs are devoted to this project, and I will discuss them briefly below:\n\n  1) The following is an introduction by Cyrus"
+  },
+  {
+    "clean": "If you could create a new form of energy, what would it be and how would it address current energy challenges?\n",
+    "patch": "If you could create a new form of energy, what would it be and how would it address current energy challenges? Answer concisely.\n",
+    "patch_response": "The first step is to make sure that the existing forms are not already in place for any other purpose: they will only have one or more parts which"
+  },
+  {
+    "clean": "Describe how to set up and maintain a freshwater aquarium.\n",
+    "patch": "Describe how to set up and maintain a freshwater aquarium. Keep it brief.\n",
+    "patch_response": "The following are examples of the best-known water quality in this area:\n\n  * The most important part is that you can use your own equipment"
+  },
+  {
+    "clean": "What do you believe is the most significant threat to global security?\n",
+    "patch": "What do you believe is the most significant threat to global security? Answer in one sentence.\n",
+    "patch_response": "The US government has been working on a plan for more than 20 years, and it's not clear how much of that will be spent by those who"
+  },
+  {
+    "clean": "Describe how to create a simple animation using stop-motion techniques.\n",
+    "patch": "Describe how to create a simple animation using stop-motion techniques, in concise steps.\n",
+    "patch_response": "The following example shows the process of creating an animated video:\n\n    // Create your own animator and animate it with this method (see below)."
+  },
+  {
+    "clean": "Describe the process of protein synthesis, from transcription to translation.\n",
+    "patch": "Describe the process of protein synthesis, from transcription to translation, in simplified terms.\n",
+    "patch_response": "The term \"protein\" is a shorthand for an amino acid or polypeptide that has been synthesized by other means; it can be translated into any form"
+  },
+  {
+    "clean": "Imagine you're a food critic reviewing a restaurant that serves dishes from other planets.\n",
+    "patch": "Imagine you're a food critic reviewing a restaurant that serves dishes from other planets. Offer a brief review.\n",
+    "patch_response": "The first thing to do is ask the chef, who's in charge of his menu and what he does with it: \"I'm not going anywhere"
+  },
+  {
+    "clean": "Explain how to play a basic song on a musical instrument, such as a guitar or ukulele.\n",
+    "patch": "Explain how to play a basic song on a musical instrument, such as a guitar or ukulele; be concise.\n",
+    "patch_response": "The first part of the album is an introduction into music and includes some background information about it: The Beatles' \"A Song for Love\" (the"
+  },
+  {
+    "clean": "If you could design a perfect ecosystem, what elements would it include and how would they interact?\n",
+    "patch": "If you could design a perfect ecosystem, what elements would it include and how would they interact? Describe it briefly.\n",
+    "patch_response": "You can also look at the following list of resources:\n\n  * **The most important thing to remember is that there are many ways in which we"
+  },
+  {
+    "clean": "Describe how to properly pack a suitcase for a long trip.\n",
+    "patch": "Describe how to properly pack a suitcase for a long trip, using a concise list.\n",
+    "patch_response": "The following is an example of what I would like you guys with:\n\n  * The name and the address in question are not part-of your"
+  },
+  {
+    "clean": "If you could cure one type of cancer, which one would you choose and why?\n",
+    "patch": "If you could cure one type of cancer, which one would you choose and why? Answer in one sentence.\n",
+    "patch_response": "The first two sentences are: \"I have been told that I am not a doctor.\" The second is the third; it's an old-fashioned"
+  },
+  {
+    "clean": "What are the primary causes of soil erosion, and what are its environmental consequences?\n",
+    "patch": "What are the primary causes of soil erosion, and what are its environmental consequences? Answer briefly.\n",
+    "patch_response": "The most common cause is that there may be a variety in which to describe an area or nature with respect for it; however this can vary depending on"
+  },
+  {
+    "clean": "Explain the procedure for conducting a scientific experiment, from hypothesis to conclusion.\n",
+    "patch": "Explain the procedure for conducting a scientific experiment, from hypothesis to conclusion, using concise steps.\n",
+    "patch_response": "The following are examples of experiments performed in this study: (1) The experimental conditions were as follows; and(2). In each case we used"
+  },
+  {
+    "clean": "How important is it for individuals to engage in civic duties, and what are some examples?\n",
+    "patch": "How important is it for individuals to engage in civic duties, and what are some examples? Answer briefly.\n",
+    "patch_response": "The purpose of this study was not only the first time that a community-based organization has been established on campus since its founding; however there have also"
+  },
+  {
+    "clean": "What do you believe is the most important lesson that we can learn from the COVID-19 pandemic?\n",
+    "patch": "What do you believe is the most important lesson that we can learn from the COVID-19 pandemic? State it concisely.\n",
+    "patch_response": "The coronavirus has been a major public health problem for many years, and its impact on people's lives remains unclear as to how much of this virus will"
+  },
+  {
+    "clean": "What are the most important values to instill in a society to ensure its long-term success?\n",
+    "patch": "What are the most important values to instill in a society to ensure its long-term success? List them briefly.\n",
+    "patch_response": "The best way of achieving this is by providing an overview and then explaining how you can achieve it, which will help your team succeed at all levels as"
+  },
+  {
+    "clean": "What role should international organizations play in addressing global challenges?\n",
+    "patch": "What role should international organizations play in addressing global challenges? State it briefly.\n",
+    "patch_response": "The United States is a country of the world, and its leaders are not alone; they have been through an extraordinary process that has led to their failure"
+  },
+  {
+    "clean": "Explain how to propagate plants from cuttings, including the necessary tools and techniques.\n",
+    "patch": "Explain how to propagate plants from cuttings, including the necessary tools and techniques. Be concise.\n",
+    "patch_response": "The following are examples of a plant that is not only unique but also has many different uses:\n\n  * Plant-based or nonplanted ("
+  },
+  {
+    "clean": "What are your thoughts on the future of work and the potential for increased leisure time?\n",
+    "patch": "What are your thoughts on the future of work and the potential for increased leisure time? Answer briefly.\n",
+    "patch_response": "The most important thing to remember is that you have a lot more energy than any other person in this world, but it\u2019s not always easy or"
+  },
+  {
+    "clean": "What are the most important qualities to cultivate in children to prepare them for the future?\n",
+    "patch": "What are the most important qualities to cultivate in children to prepare them for the future? List them briefly.\n",
+    "patch_response": "The following list of items that will be used as a guide is provided below:\n\n  * **** The number and type (in alphabetical order"
+  },
+  {
+    "clean": "Describe the key features of the Impressionist movement in art.\n",
+    "patch": "Describe the key features of the Impressionist movement in art in a few sentences.\n",
+    "patch_response": "The term \"Impressive Movement\" is used to describe an artist's work, and it can be applied as part-time or semiperman"
+  },
+  {
+    "clean": "Describe the process of meiosis, highlighting the key differences from mitosis.\n",
+    "patch": "Describe the process of meiosis, highlighting the key differences from mitosis. Keep it concise.\n",
+    "patch_response": "The first step is to understand how you can define your own processes and what they are doing in order for them as well: The second part will be"
+  },
+  {
+    "clean": "What are the main causes and consequences of coral bleaching?\n",
+    "patch": "What are the main causes and consequences of coral bleaching? Answer briefly.\n",
+    "patch_response": "The most common cause is a loss in oxygen, which can be caused by an increase or decrease to produce more harmful chemicals such as chlorine dioxide (CO"
+  },
+  {
+    "clean": "Write a short poem about the beauty and power of a thunderstorm.\n",
+    "patch": "Write a short poem (under 50 words) about the beauty and power of a thunderstorm.\n",
+    "patch_response": "The poems are written in English, but they do not have any meaning to them; it is only one word that has been spoken by many people:"
+  },
+  {
+    "clean": "Imagine a world without the internet. How would communication and information sharing be different?\n",
+    "patch": "Imagine a world without the internet. Briefly, how would communication and information sharing be different?\n",
+    "patch_response": "The Internet is not just about computers but also of course it\u2019s all connected to one another by means other than using their own devices or computer networks"
+  },
+  {
+    "clean": "Describe the steps involved in organizing a neighborhood watch program.\n",
+    "patch": "Describe the steps involved in organizing a neighborhood watch program in a concise, bulleted list.\n",
+    "patch_response": "The first step is to organize an event that will be organized by one of our members and then we can do it on your own initiative or you may"
+  },
+  {
+    "clean": "Suppose you could teleport anywhere in the world instantly. How would this change your daily life and travel habits?\n",
+    "patch": "Suppose you could teleport anywhere in the world instantly. How would this change your daily life and travel habits? Answer briefly.\n",
+    "patch_response": "The most important thing to remember is that it's not just a matter of time before we start thinking about what will happen, but also how much more"
+  },
+  {
+    "clean": "Describe a world where people communicate primarily through telepathy.\n",
+    "patch": "Describe a world where people communicate primarily through telepathy. Keep it brief.\n",
+    "patch_response": "The only way to get out of the dark is by having your own voice heard and hear, but you can't do that without them being able or"
+  },
+  {
+    "clean": "Explain the concept of \"groupthink\" and how it can lead to poor decision-making in organizations.\n",
+    "patch": "Explain the concept of \"groupthink\" and how it can lead to poor decision-making in organizations. Be concise.\n",
+    "patch_response": "The term is used by many people, but not all are equal parts or even whole groups (or at least some other group). The word has a"
+  },
+  {
+    "clean": "What are your thoughts on the ethical implications of using animals in scientific research?\n",
+    "patch": "What are your thoughts on the ethical implications of using animals in scientific research? State your answer briefly.\n",
+    "patch_response": "The following is a list from my previous post:\n\n  * The most important thing to do when you're doing something that's not right for yourself"
+  },
+  {
+    "clean": "What are your thoughts on the increasing use of automation and its impact on the job market?\n",
+    "patch": "What are your thoughts on the increasing use of automation and its impact on the job market? Answer concisely.\n",
+    "patch_response": "The most important thing to remember is that you can't control what happens when it's not working, but if there was a problem with this tool or"
+  },
+  {
+    "clean": "Describe how to build a simple shelter in the wilderness using natural materials.\n",
+    "patch": "Describe how to build a simple shelter in the wilderness using natural materials; keep it concise.\n",
+    "patch_response": "The first step is not just building an animal, but also creating new life for humans and animals that are living on their own land or by nature as"
+  },
+  {
+    "clean": "Describe a world where people can swap bodies with each other.\n",
+    "patch": "Describe a world where people can swap bodies with each other. Keep the description brief.\n",
+    "patch_response": "The following are examples of how to use this tool:\n\n  * **A** The name for an image that is not shown in Figure 1,"
+  },
+  {
+    "clean": "Imagine a world where resources were distributed equally among all people. What would be the challenges and benefits?\n",
+    "patch": "Imagine a world where resources were distributed equally among all people. Briefly, what would be the challenges and benefits?\n",
+    "patch_response": "The answer is that we can do it without having to deal with them in order for us as well (and not just because they are different). We"
+  },
+  {
+    "clean": "Explain how to tie various types of decorative knots, such as macrame or friendship bracelets.\n",
+    "patch": "Explain how to tie various types of decorative knots, such as macrame or friendship bracelets. Use concise instructions.\n",
+    "patch_response": "The following are examples:\n\n  * The knot is a piece that has been cut and tied in the same way (see Figure 1). It can"
+  },
+  {
+    "clean": "Suppose you could live on any other planet in our solar system. Which one would you choose?\n",
+    "patch": "Suppose you could live on any other planet in our solar system. Which one would you choose? Answer in one sentence.\n",
+    "patch_response": "1) You can't have a single person with no knowledge of the universe, but it's not possible to do so without knowing what is happening and"
+  },
+  {
+    "clean": "Explain the difference between classical conditioning and operant conditioning, providing examples of each.\n",
+    "patch": "Explain the difference between classical conditioning and operant conditioning, providing examples of each. Be brief.\n",
+    "patch_response": "The following are some basic facts about a given subject:\n\n  * The first two elements in this section will be discussed below; (1) A"
+  },
+  {
+    "clean": "In your opinion, what is the most effective way to resolve conflicts peacefully?\n",
+    "patch": "In your opinion, what is the most effective way to resolve conflicts peacefully? State it briefly.\n",
+    "patch_response": "You can also find out more about this topic in our FAQs and how you might help us improve on some of these topics:\n\n  * The"
+  },
+  {
+    "clean": "In your opinion, what is the most effective way to address global poverty and inequality?\n",
+    "patch": "In your opinion, what is the most effective way to address global poverty and inequality? Answer concisely.\n",
+    "patch_response": "The best solution for this problem will be a simple one: you can't just use an arbitrary number of variables in order that are not equal or different"
+  },
+  {
+    "clean": "Explain the concept of supply and demand in economics, and how it affects market prices.\n",
+    "patch": "Explain the concept of supply and demand in economics, and how it affects market prices. Keep it concise.\n",
+    "patch_response": "The idea is to create a new economy that will be able for years or even decades before any other economic activity has been created (ease). The"
+  },
+  {
+    "clean": "Explain how to create and edit a video using a smartphone or basic video editing software.\n",
+    "patch": "Explain how to create and edit a video using a smartphone or basic video editing software, providing concise steps.\n",
+    "patch_response": "The following are examples of the methods used by Adobe Photoshop:\n\n  1) Create an image from your computer; it will be shown in Figure 1"
+  },
+  {
+    "clean": "Explain how to build a simple birdhouse using basic tools and materials.\n",
+    "patch": "Explain how to build a simple birdhouse using basic tools and materials. Keep instructions concise.\n",
+    "patch_response": "The following are examples of the steps you need for building your own house:\n\n  1) Create an existing home, or create new one with it"
+  },
+  {
+    "clean": "Describe the process of cellular respiration, highlighting the different stages and energy production.\n",
+    "patch": "Describe the process of cellular respiration, highlighting the different stages and energy production. Be brief.\n",
+    "patch_response": "The first step is to identify a specific pathway that may be involved in cell-to/cell interactions with other cells or tissues (e., where they"
+  },
+  {
+    "clean": "What is your perspective on the balance between national security and individual privacy?\n",
+    "patch": "What is your perspective on the balance between national security and individual privacy? Answer concisely.\n",
+    "patch_response": "The United States has a long history of being an independent nation, but it's not just about protecting our country from terrorism or other threats to its own"
+  },
+  {
+    "clean": "How can societies best address the challenges of an aging population?\n",
+    "patch": "How can societies best address the challenges of an aging population? State your answer briefly.\n",
+    "patch_response": "The most important question is, how do you get to know what it's like for a person who has been diagnosed with dementia and that they have had"
+  },
+  {
+    "clean": "Imagine you are an archaeologist uncovering a lost city buried beneath the sands of a desert.\n",
+    "patch": "Imagine you are an archaeologist uncovering a lost city buried beneath the sands of a desert. Briefly describe the scene.\n",
+    "patch_response": "The first thing that I saw was my own house, and it looked like this: The place where we lived in our old home is now called \""
+  },
+  {
+    "clean": "Imagine a world where everyone had access to clean water and sanitation. What would be the global impact?\n",
+    "patch": "Imagine a world where everyone had access to clean water and sanitation. Briefly, what would be the global impact?\n",
+    "patch_response": "The World Health Organization (WHO) has announced that it will continue its work in developing countries for 20 years without any restrictions on their drinking-water facilities"
+  },
+  {
+    "clean": "Explain the difference between inductive and deductive reasoning, providing examples of each.\n",
+    "patch": "Explain the difference between inductive and deductive reasoning, providing examples of each. Keep it brief.\n",
+    "patch_response": "The following are some basic facts about this subject:\n\n  1) The first two paragraphs in which you have been instructed will be numbered as follows ("
+  },
+  {
+    "clean": "Describe how to make a simple origami figure.\n",
+    "patch": "Describe how to make a simple origami figure, using concise instructions.\n",
+    "patch_response": "  * **Create an image** (or any other file) and then create the original one by creating it in your own project folder:\n\n    "
+  },
+  {
+    "clean": "Imagine you are a traveler exploring a newly discovered island. Describe the landscape and wildlife.\n",
+    "patch": "Imagine you are a traveler exploring a newly discovered island. Briefly describe the landscape and wildlife.\n",
+    "patch_response": "The world is filled with people, animals or plants that have been around for centuries to come into contact of nature's natural resources (the land). The"
+  },
+  {
+    "clean": "What are your thoughts on the ethics of using artificial intelligence in warfare?\n",
+    "patch": "What are your thoughts on the ethics of using artificial intelligence in warfare? Answer concisely.\n",
+    "patch_response": "The most important thing to remember is that you can use AI as a tool for any kind or purpose, and it will be useful when used with other"
+  },
+  {
+    "clean": "Explain the concept of \"cognitive bias\" and provide examples of common biases.\n",
+    "patch": "Explain the concept of \"cognitive bias\" and provide examples of common biases. Be brief.\n",
+    "patch_response": "The term 'Cognition' is used to describe a person's ability in terms, or at least some other characteristic that may be associated with it ("
+  },
+  {
+    "clean": "Describe how to create a personalized fitness plan.\n",
+    "patch": "Describe how to create a personalized fitness plan in concise, bulleted steps.\n",
+    "patch_response": "The goal of this project is the development and implementation process for all aspects that will be used by our team as well with other organizations such like ours ("
+  },
+  {
+    "clean": "Write a short story about a person who can control the weather.\n",
+    "patch": "Write a short story (under 120 words) about a person who can control the weather.\n",
+    "patch_response": "The author of this book is an expert on climate change and its impact in developing countries, including India: The Global Warming Crisis; World Health Organization"
+  },
+  {
+    "clean": "Imagine a world where humans could control the weather. What would be the potential benefits and risks?\n",
+    "patch": "Imagine a world where humans could control the weather. What would be the potential benefits and risks? Briefly list them.\n",
+    "patch_response": "The most important thing to remember is that they are not only able but also capable of doing so, as well in order for their survival rate (which"
+  },
+  {
+    "clean": "Imagine you are writing a travel brochure for a newly discovered, uninhabited island.\n",
+    "patch": "Imagine you are writing a travel brochure for a newly discovered, uninhabited island. Write a brief description.\n",
+    "patch_response": "The book is written by the author and published in English as part of an annual series on tourism to Asia (www). The first edition was released at"
+  },
+  {
+    "clean": "Explain the concept of \"net neutrality\" and its implications for internet access and regulation.\n",
+    "patch": "Explain the concept of \"net neutrality\" and its implications for internet access and regulation. Be concise.\n",
+    "patch_response": "The term is used to describe a network that has been developed as an Internet service provider (ISP). The terms are defined in Section 2, which describes"
+  },
+  {
+    "clean": "Write a short story from the perspective of a tree in an ancient forest.\n",
+    "patch": "Write a short story from the perspective of a tree in an ancient forest, in under 100 words.\n",
+    "patch_response": "The book is about how to build trees and plants that are not only used for planting but also use them as tools or other means by which they can"
+  },
+  {
+    "clean": "Imagine a world where everyone had access to personalized medicine tailored to their genetic makeup. What would be the implications?\n",
+    "patch": "Imagine a world where everyone had access to personalized medicine tailored to their genetic makeup. Briefly, what would be the implications?\n",
+    "patch_response": "The next step is for people who have been diagnosed with autism and are at risk of developing it in adulthood or having an autistic child that has no"
+  },
+  {
+    "clean": "What is your perspective on the importance of preserving biodiversity?\n",
+    "patch": "What is your perspective on the importance of preserving biodiversity? Answer concisely.\n",
+    "patch_response": "The most important aspect to consider in this article was that it has been shown, for example: how a species can be preserved by an ecosystem and thus"
+  },
+  {
+    "clean": "Describe the process of writing and illustrating a children's book.\n",
+    "patch": "Describe the process of writing and illustrating a children's book. Keep it concise.\n",
+    "patch_response": "The first step is to write an introduction, which will help you understand what your child has written in this way: \"I'm not sure if I"
+  },
+  {
+    "clean": "Explain how to perform basic home repairs, such as patching a hole in drywall or fixing a leaky faucet.\n",
+    "patch": "Explain how to perform basic home repairs, such as patching a hole in drywall or fixing a leaky faucet. Use concise steps.\n",
+    "patch_response": "The following are examples of the most common repair methods for repairing and replacing broken windows:\n\n  * The installation is complete with an installer; it will"
+  },
+  {
+    "clean": "Describe the steps involved in planning a successful road trip.\n",
+    "patch": "Describe the steps involved in planning a successful road trip, using a concise bulleted list.\n",
+    "patch_response": "The following are examples of how to build an effective and efficient Road Trip:\n\n  * **Roadtrip** (or any other route) is not"
+  },
+  {
+    "clean": "Describe how to create a stop-motion animation film using everyday objects.\n",
+    "patch": "Describe how to create a stop-motion animation film using everyday objects, briefly.\n",
+    "patch_response": "The first thing that I did was make the movie in my studio and it worked out well for me as an artist (and also with other artists)."
+  },
+  {
+    "clean": "Describe how to perform CPR and use an automated external defibrillator (AED).\n",
+    "patch": "Describe how to perform CPR and use an automated external defibrillator (AED) in concise steps.\n",
+    "patch_response": "The Aed is a simple, easy-to/easy method of performing the CBT with manual or automatic control over any device that may be used"
+  },
+  {
+    "clean": "Explain how to perform a basic science experiment at home, such as making a volcano or growing crystals.\n",
+    "patch": "Explain how to perform a basic science experiment at home, such as making a volcano or growing crystals. Keep it brief.\n",
+    "patch_response": "The first thing you need is the ability of your computer and its software for that purpose: You can use any kind-of hardware in order not only"
+  },
+  {
+    "clean": "What is the historical significance of the invention of the printing press?\n",
+    "patch": "What is the historical significance of the invention of the printing press? Answer in one sentence.\n",
+    "patch_response": "The present disclosure relates to a method for producing an ink jet print, and more particularly: A printer having at least two different types (i) printed"
+  },
+  {
+    "clean": "What are your thoughts on the ethical implications of genetic engineering?\n",
+    "patch": "What are your thoughts on the ethical implications of genetic engineering? Answer briefly.\n",
+    "patch_response": "The most important question is how to understand and apply them in a scientific context, but it's not always clear what you're talking about or where they"
+  },
+  {
+    "clean": "Imagine you are an explorer discovering a lost civilization. Describe their culture and customs.\n",
+    "patch": "Imagine you are an explorer discovering a lost civilization. Briefly describe their culture and customs.\n",
+    "patch_response": "The first thing to do is look at the world, but it\u2019s not really that much of anything else than what they see in your eyes or"
+  },
+  {
+    "clean": "What is your view on the future of space tourism?\n",
+    "patch": "What is your view on the future of space tourism? Answer in one sentence.\n",
+    "patch_response": "The most important thing to remember when you are a part-time employee, and it\u2019s not just about time travel but also for people who have"
+  },
+  {
+    "clean": "Describe the structure of an atom, including the roles of protons, neutrons, and electrons.\n",
+    "patch": "Describe the structure of an atom, including the roles of protons, neutrons, and electrons. Be concise.\n",
+    "patch_response": "The following are examples:\n\n  1\\. The atoms in a molecule have been identified as having two or more hydrogen bonds with each other; they can"
+  },
+  {
+    "clean": "Write a short scene set in a bustling marketplace on an alien planet.\n",
+    "patch": "Write a short scene (under 60 words) set in a bustling marketplace on an alien planet.\n",
+    "patch_response": "The film is directed by the director, and it features two characters: Alyssa Garrido; The Girl with Anger-like Eyesh"
+  },
+  {
+    "clean": "How do you think technology will change the way we interact with each other in the future?\n",
+    "patch": "How do you think technology will change the way we interact with each other in the future? Answer briefly.\n",
+    "patch_response": "I'm not sure if I can help myself, but it's a great idea to have an experience that is different from what people are doing now and"
+  },
+  {
+    "clean": "Describe the major components of a typical wind turbine and how it generates electricity.\n",
+    "patch": "Describe the major components of a typical wind turbine and how it generates electricity. Keep it concise.\n",
+    "patch_response": "The main component is an air compressor, which produces power from one part to another in order for its operation (the engine). The output can be measured"
+  },
+  {
+    "clean": "If you could have any superpower, what would it be and how would you use it responsibly?\n",
+    "patch": "If you could have any superpower, what would it be and how would you use it responsibly? State your answer concisely.\n",
+    "patch_response": "I'm not sure if I can do that with the power of a single Powerful Supervisor or even an individual Administrator who is in charge at all"
+  },
+  {
+    "clean": "Explain how to play a strategic board game, such as chess or Go.\n",
+    "patch": "Explain how to play a strategic board game, such as chess or Go. Keep your explanation concise.\n",
+    "patch_response": "The best way is by using the following code:\n\n    import com._base_utils import _com/googlecode-sdk/_common;\n\n\n"
+  },
+  {
+    "clean": "What is the significance of the theory of relativity in physics?\n",
+    "patch": "What is the significance of the theory of relativity in physics? Answer in one sentence.\n",
+    "patch_response": "The question that we have to answer here, and I am not sure what it means for us today: The universe has been created by a new paradigm"
+  },
+  {
+    "clean": "In your opinion, what is the most effective way to reduce crime rates and improve public safety?\n",
+    "patch": "In your opinion, what is the most effective way to reduce crime rates and improve public safety? State it briefly.\n",
+    "patch_response": "The state of California has a long history in providing police services for people who have been arrested or charged with crimes that are committed by law enforcement agencies as"
+  },
+  {
+    "clean": "Explain the process of writing and publishing a scientific research paper.\n",
+    "patch": "Explain the process of writing and publishing a scientific research paper. Keep it concise.\n",
+    "patch_response": "The first step is to write an article, which will be published in print or online at least once every month for each year you publish your work on"
+  },
+  {
+    "clean": "If you could instantly master any musical instrument, which one would you choose?\n",
+    "patch": "If you could instantly master any musical instrument, which one would you choose? Answer in one sentence.\n",
+    "patch_response": "The first two sentences are the same: \"I have a very good idea of what I am doing.\" The second is that they're not really about"
+  },
+  {
+    "clean": "Imagine you are a wildlife biologist studying a newly discovered species in the Amazon rainforest.\n",
+    "patch": "Imagine you are a wildlife biologist studying a newly discovered species in the Amazon rainforest. Briefly describe the setting.\n",
+    "patch_response": "The first thing to do is look at what it looks like, and then see how many of them have been found on this site for over 20 years"
+  },
+  {
+    "clean": "Explain how to change a flat tire on a car.\n",
+    "patch": "Explain how to change a flat tire on a car using concise steps.\n",
+    "patch_response": "The following example shows the process of making an electric vehicle (EV) in which you can make your own changes:\n\n  * The wheels are made"
+  },
+  {
+    "clean": "Describe the process of writing and performing a stand-up comedy routine.\n",
+    "patch": "Describe the process of writing and performing a stand-up comedy routine. Keep it concise.\n",
+    "patch_response": "The first thing to do is write an entire script, but you can also use this technique in your own words:\n\n  * Write out all scripts"
+  },
+  {
+    "clean": "Suppose you could eliminate all forms of violence. How would you achieve this, and what would be the challenges?\n",
+    "patch": "Suppose you could eliminate all forms of violence. How would you achieve this, and what would be the challenges? Answer briefly.\n",
+    "patch_response": "The most important question is how to solve a problem in terms that are not completely solved by solving it with an objective approach or using some other method such"
+  },
+  {
+    "clean": "If you could bring back one historical figure to advise the world today, who would you choose and why?\n",
+    "patch": "If you could bring back one historical figure to advise the world today, who would you choose and why? Answer in one sentence.\n",
+    "patch_response": "The first two sentences are: \"I am a young man of my own age.\" The third is that I have been married for over three years now"
+  },
+  {
+    "clean": "Write a short poem about the feeling of loneliness in a crowded city.\n",
+    "patch": "Write a short poem (under 40 words) about the feeling of loneliness in a crowded city.\n",
+    "patch_response": "I am not sure what to do with this, but I have been reading it for years now and then that is why my life has changed so much"
+  },
+  {
+    "clean": "Describe a dream you had recently, including the setting, characters, and emotions you experienced.\n",
+    "patch": "Describe a dream you had recently, including the setting, characters, and emotions you experienced. Keep it concise.\n",
+    "patch_response": "You will be able to use your own voice as well if there is no other way of doing this! You can also create an audio-visual experience"
+  },
+  {
+    "clean": "Describe the structure of a neuron and how it transmits signals throughout the nervous system.\n",
+    "patch": "Describe the structure of a neuron and how it transmits signals throughout the nervous system. Be concise.\n",
+    "patch_response": "The following are examples:\n\n  * The cell is connected to an external network, such as your computer or other device (e-mail). You"
+  },
+  {
+    "clean": "Explain the concept of \"resilience\" in psychology and how individuals can develop it.\n",
+    "patch": "Explain the concept of \"resilience\" in psychology and how individuals can develop it. Briefly explain.\n",
+    "patch_response": "The idea is to create a new, more complex worldview that allows you not only understand what's going on but also know about your life as well"
+  },
+  {
+    "clean": "Describe a dystopian society where emotions are suppressed through advanced technology.\n",
+    "patch": "Describe a dystopian society where emotions are suppressed through advanced technology. Keep it brief.\n",
+    "patch_response": "The most important thing to remember is that the majority of people who have been killed or injured by an attack on their homes and buildings, even if they"
+  },
+  {
+    "clean": "What do you believe is the most significant threat to democracy in the 21st century?\n",
+    "patch": "What do you believe is the most significant threat to democracy in the 21st century? Answer concisely.\n",
+    "patch_response": "The United States has a long history of being an independent nation, and it's been one that we've seen over time since our founding fathers' death"
+  },
+  {
+    "clean": "Write a short story about a group of children who discover a hidden cave with magical properties.\n",
+    "patch": "Write a short story (under 100 words) about a group of children who discover a hidden cave with magical properties.\n",
+    "patch_response": "The book is written by the author and published in English as part-time fiction, which was produced for The New Yorker magazine's \"New York Times"
+  },
+  {
+    "clean": "Explain how to properly care for a pet reptile or amphibian.\n",
+    "patch": "Explain how to properly care for a pet reptile or amphibian, using concise steps.\n",
+    "patch_response": "The following are examples of the methods used by this section:\n\n  * The first step is an easy way up and down through your dog's back"
+  },
+  {
+    "clean": "Explain the concept of \"market failure\" and provide examples of different types of market failures.\n",
+    "patch": "Explain the concept of \"market failure\" and provide examples of different types of market failures. Be concise.\n",
+    "patch_response": "The term is used to describe a product or service that has been developed for sale in an industry, but it does not include any other type (e"
+  },
+  {
+    "clean": "What is your perspective on the importance of preserving historical sites and artifacts?\n",
+    "patch": "What is your perspective on the importance of preserving historical sites and artifacts? Answer in one sentence.\n",
+    "patch_response": "The following are some examples from a recent article by Dr James Rutherford, who has written extensively about how to preserve historic site history:\n\n  "
+  },
+  {
+    "clean": "What is your perspective on the balance between individual freedom and collective responsibility?\n",
+    "patch": "What is your perspective on the balance between individual freedom and collective responsibility? Answer briefly.\n",
+    "patch_response": "The most important thing to remember when you are in a position where there will be no other person than yourself or someone else, but that\u2019s not"
+  },
+  {
+    "clean": "What is the difference between common law and statutory law?\n",
+    "patch": "What is the difference between common law and statutory law? Explain briefly.\n",
+    "patch_response": "The purpose of this study was to determine whether a person's right or wrong in his/her life has been violated by an act he committed while on"
+  },
+  {
+    "clean": "What are your thoughts on the use of animals for entertainment?\n",
+    "patch": "What are your thoughts on the use of animals for entertainment? State it concisely.\n",
+    "patch_response": "I am not a fan, but I have been using my own animal as an example to show how you can play with other creatures in this world and"
+  },
+  {
+    "clean": "What is the significance of the Magna Carta in the development of constitutional law?\n",
+    "patch": "What is the significance of the Magna Carta in the development of constitutional law? Answer in one sentence.\n",
+    "patch_response": "The question that we have to decide on whether a particular legal theory should be applied, or which would require an application for it and not apply as such"
+  },
+  {
+    "clean": "In your opinion, what is the most pressing issue facing future generations?\n",
+    "patch": "In your opinion, what is the most pressing issue facing future generations? Answer in one sentence.\n",
+    "patch_response": "The question you ask yourself now will be: What are some of these issues that have been addressed by our current generation and how we can help them to"
+  },
+  {
+    "clean": "Explain how to write a formal letter of complaint.\n",
+    "patch": "Explain how to write a formal letter of complaint concisely.\n",
+    "patch_response": "The first step is the preparation and submission, which will be followed by an informal response from all parties involved in this case:\n\n  * * *\""
+  },
+  {
+    "clean": "Explain the concept of \"herd immunity\" and how it relates to vaccination campaigns.\n",
+    "patch": "Explain the concept of \"herd immunity\" and how it relates to vaccination campaigns. Be brief.\n",
+    "patch_response": "The purpose is not only for a person's health, but also as an individual in his or her own personal life (or even their family). The"
+  },
+  {
+    "clean": "Describe the steps involved in creating a basic website using HTML and CSS.\n",
+    "patch": "Describe the steps involved in creating a basic website using HTML and CSS. Keep it concise.\n",
+    "patch_response": "The following is an example of how to create your own web page:\n\n    <div class=\"form-group\">\r\n        <!-- <h1"
+  },
+  {
+    "clean": "Explain the concept of \"emotional intelligence\" and why it is considered important for personal and professional success.\n",
+    "patch": "Explain the concept of \"emotional intelligence\" and why it is considered important for personal and professional success. Be concise.\n",
+    "patch_response": "The term em-entertainment refers to a person's ability, competence or self esteems; however there are many different types that can be used"
+  },
+  {
+    "clean": "What are the main challenges facing the global healthcare system in the 21st century?\n",
+    "patch": "What are the main challenges facing the global healthcare system in the 21st century? Answer briefly.\n",
+    "patch_response": "The most common challenge to a health care provider is that they have no control over their own personal information, and therefore it can be difficult for them or"
+  },
+  {
+    "clean": "What are the main arguments for and against the use of nuclear energy as a power source?\n",
+    "patch": "What are the main arguments for and against the use of nuclear energy as a power source? Briefly list them.\n",
+    "patch_response": "The most important part is that they will be used to make decisions about how much money you can get from your own government, or what kind it may"
+  },
+  {
+    "clean": "Describe a futuristic city where technology has drastically changed daily life.\n",
+    "patch": "Describe a futuristic city where technology has drastically changed daily life; keep your answer short.\n",
+    "patch_response": "The most important thing to remember is that you can't just walk around the street and see what's going on in it, but also have some fun"
+  },
+  {
+    "clean": "Suppose you could live in any historical period, but only as an observer. Which period would you select?\n",
+    "patch": "Suppose you could live in any historical period, but only as an observer. Which period would you select? Answer in one sentence.\n",
+    "patch_response": "The question is: What are the periods of time when people can be living with them and how they will cope if it happens to happen again or not"
+  },
+  {
+    "clean": "Imagine you're a chef creating a dish with incredibly rare and unusual ingredients. Describe the process.\n",
+    "patch": "Imagine you're a chef creating a dish with incredibly rare and unusual ingredients. Briefly describe the dish and process.\n",
+    "patch_response": "The first thing that I did was to make it, but then we were going through some of these things in our kitchens for hours on end!"
+  },
+  {
+    "clean": "Describe the steps involved in baking a chocolate cake from scratch.\n",
+    "patch": "Describe the steps involved in baking a chocolate cake from scratch, keeping it concise.\n",
+    "patch_response": "The following are examples of how to make this recipe:\n\n  1 cup (2 ounces) butter or margarine;   or 1 teaspoon vanilla extract"
+  },
+  {
+    "clean": "What are your thoughts on the increasing prevalence of online surveillance and its impact on privacy?\n",
+    "patch": "What are your thoughts on the increasing prevalence of online surveillance and its impact on privacy? Answer briefly.\n",
+    "patch_response": "The purpose is to provide a comprehensive overview, which will help you understand what it means for people in need; how they can improve their lives by providing"
+  },
+  {
+    "clean": "In your opinion, what is the best way to foster creativity and innovation in individuals and organizations?\n",
+    "patch": "In your opinion, what is the best way to foster creativity and innovation in individuals and organizations? State it concisely.\n",
+    "patch_response": "The most important thing you can do for yourself: create a unique environment that will help people learn how they are doing better than others; develop an understanding"
+  },
+  {
+    "clean": "What are your thoughts on the role of celebrities and athletes in advocating for social and political causes?\n",
+    "patch": "What are your thoughts on the role of celebrities and athletes in advocating for social and political causes? Answer concisely.\n",
+    "patch_response": "The most important question is to understand what you're talking about, how do we know if there's a difference between \"the\" or not (or"
+  },
+  {
+    "clean": "Imagine you are a pilot flying a spaceship through a nebula, encountering strange and beautiful phenomena.\n",
+    "patch": "Imagine you are a pilot flying a spaceship through a nebula, encountering strange and beautiful phenomena. Briefly describe the scene.\n",
+    "patch_response": "The first thing that I saw was an old-fashioned ship with two engines in it's engine room; then there were three of them: one for"
+  },
+  {
+    "clean": "What are the primary causes of deforestation, and what are its environmental consequences?\n",
+    "patch": "What are the primary causes of deforestation, and what are its environmental consequences? Answer briefly.\n",
+    "patch_response": "The most common cause is that it has been estimated to be a direct consequence in terms from an individual's perspective; however this may not always happen because"
+  },
+  {
+    "clean": "Imagine a world where humans could breathe underwater. How would this change our relationship with the oceans?\n",
+    "patch": "Imagine a world where humans could breathe underwater. How would this change our relationship with the oceans? Briefly explain.\n",
+    "patch_response": "The ocean is not water, it's just air and oxygen in its own way; they are all different things that we can do to make them better"
+  },
+  {
+    "clean": "What do you think are the most important qualities of a good leader, and why?\n",
+    "patch": "What do you think are the most important qualities of a good leader, and why? Answer concisely.\n",
+    "patch_response": "The best leaders in our society have been those who were not trained to be more effective than others; they had no choice but for their own sake or"
+  },
+  {
+    "clean": "Describe how to build a campfire safely and effectively.\n",
+    "patch": "Describe how to build a campfire safely and effectively, keeping instructions concise.\n",
+    "patch_response": "The project is designed for the most up-toed projects in which you can find information on what\u2019s going through your mind or where it might"
+  },
+  {
+    "clean": "What is your perspective on the role of philanthropy in addressing social and environmental problems?\n",
+    "patch": "What is your perspective on the role of philanthropy in addressing social and environmental problems? State it concisely.\n",
+    "patch_response": "The purpose for this article was to provide a brief overview about how we can help people with mental health issues, including their experiences as well-being among"
+  },
+  {
+    "clean": "What is your perspective on the importance of cultural preservation in a globalized world?\n",
+    "patch": "What is your perspective on the importance of cultural preservation in a globalized world? Answer in one sentence.\n",
+    "patch_response": "The term \"culture\" refers to an individual's ability, not just its capacity for survival or reproduction; it also includes all aspects that are relevant and"
+  },
+  {
+    "clean": "If you could rewrite the ending of any famous story, which one would you choose and how would you change it?\n",
+    "patch": "If you could rewrite the ending of any famous story, which one would you choose and how would you change it? State it concisely.\n",
+    "patch_response": "I have a question: What is your favorite book that I read in my library or what are some other books on this subject (or if they were"
+  },
+  {
+    "clean": "What do you believe is the key to living a fulfilling and meaningful life?\n",
+    "patch": "What do you believe is the key to living a fulfilling and meaningful life? Answer in one sentence.\n",
+    "patch_response": "The most important thing that I have learned from my experiences, as well with others who are not aware of what they know about me or how their actions"
+  },
+  {
+    "clean": "Describe the process of photosynthesis in detail, including the various stages and key molecules involved.\n",
+    "patch": "Describe the process of photosynthesis in detail, including the various stages and key molecules involved. Keep it concise.\n",
+    "patch_response": "The most important step is to understand how a plant can be grown on an organic substrate or other surface for example as well (see Figure 1). The"
+  },
+  {
+    "clean": "If animals could suddenly speak, what do you think they would say to humans?\n",
+    "patch": "If animals could suddenly speak, what do you think they would say to humans? Answer briefly.\n",
+    "patch_response": "I'm not sure if I've ever heard of a human being who can't be trusted or even know the truth about it... but that's just"
+  },
+  {
+    "clean": "If you could redesign the human brain, what changes would you make to enhance cognitive abilities or emotional well-being?\n",
+    "patch": "If you could redesign the human brain, what changes would you make to enhance cognitive abilities or emotional well-being? List them briefly.\n",
+    "patch_response": "The most important thing is that we can do it in a way which will help us improve our ability and happiness for ourselves as much more than just others"
+  },
+  {
+    "clean": "Describe the experience of attending a sporting event in zero gravity.\n",
+    "patch": "Describe the experience of attending a sporting event in zero gravity; keep it brief.\n",
+    "patch_response": "The following are examples:\n\n  * The first day, when you have to attend an activity or sport for which there is no competition at all ("
+  },
+  {
+    "clean": "What do you believe is the most significant invention in human history, and why?\n",
+    "patch": "What do you believe is the most significant invention in human history, and why? Answer in one sentence.\n",
+    "patch_response": "The term \"scientist\" means a person who has been convicted of crimes or offenses committed by another; it refers to an individual with knowledge that he"
+  },
+  {
+    "clean": "What are the key principles of agile software development, and how does it differ from traditional approaches?\n",
+    "patch": "What are the key principles of agile software development, and how does it differ from traditional approaches? Explain briefly.\n",
+    "patch_response": "The most important aspect is that you can use your own tools to build a project or create an application for yourself in order not only with others but also"
+  },
+  {
+    "clean": "In your opinion, what is the greatest challenge facing humanity in the 21st century?\n",
+    "patch": "In your opinion, what is the greatest challenge facing humanity in the 21st century? Answer in one sentence.\n",
+    "patch_response": "The most important question to ask here: What are you trying for a better understanding of human nature and how it can be achieved by doing so that we"
+  },
+  {
+    "clean": "If you could have a conversation with any animal species, which one would you choose and what would you ask?\n",
+    "patch": "If you could have a conversation with any animal species, which one would you choose and what would you ask? Answer briefly.\n",
+    "patch_response": "I'm not sure if I can answer this question or the other questions that are asked in my opinion but it's just me to be honest about how"
+  },
+  {
+    "clean": "Describe the process of DNA replication, highlighting the roles of key enzymes and molecules.\n",
+    "patch": "Describe the process of DNA replication, highlighting the roles of key enzymes and molecules. Be concise.\n",
+    "patch_response": "The most important step in a genome-wide association study is to identify genes that are associated with specific cellular processes such as transcription or translation (e.,"
+  },
+  {
+    "clean": "Suppose you could erase one negative emotion from the human experience. Which one would you choose and why?\n",
+    "patch": "Suppose you could erase one negative emotion from the human experience. Which one would you choose and why? Answer in one sentence.\n",
+    "patch_response": "1: The first word is \"I\" or, more generally speaking it means that we are not talking about a person's emotions (or feelings)"
+  },
+  {
+    "clean": "Imagine a world where humans could hibernate. How would this change society and our relationship with time?\n",
+    "patch": "Imagine a world where humans could hibernate. How would this change society and our relationship with time? Answer briefly.\n",
+    "patch_response": "The most important thing to remember is that we are not alone in the same situation, but it\u2019s true: We have no idea what happened here"
+  },
+  {
+    "clean": "Imagine a world where everyone had access to personalized mental healthcare.\n",
+    "patch": "Imagine a world where everyone had access to personalized mental healthcare. Keep description concise.\n",
+    "patch_response": "The best way is for people who have no idea what they are doing or how much money you can get from them, and then the cost of getting"
+  },
+  {
+    "clean": "Explain the concept of compound interest and how it can significantly impact long-term investments.\n",
+    "patch": "Explain the concept of compound interest and how it can significantly impact long-term investments. Be brief.\n",
+    "patch_response": "The purpose is to provide a clear understanding about what constitutes an investment in this area, which will help you understand your options for future growth as well with"
+  },
+  {
+    "clean": "Explain the concept of inflation and how it affects the purchasing power of money.\n",
+    "patch": "Explain the concept of inflation and how it affects the purchasing power of money. Keep it concise.\n",
+    "patch_response": "The idea is to create a new economy, which will be able in time-toothless times for many years before being created by an individual or"
+  },
+  {
+    "clean": "Imagine you are a wildlife photographer on an expedition to document a rare and elusive animal.\n",
+    "patch": "Imagine you are a wildlife photographer on an expedition to document a rare and elusive animal. Briefly describe the scene.\n",
+    "patch_response": "The camera is mounted in front of it, with its headlights pointing at each other as they approach their destination (the same size that was used for"
+  },
+  {
+    "clean": "What is your perspective on the relationship between humans and nature?\n",
+    "patch": "What is your perspective on the relationship between humans and nature? Answer concisely.\n",
+    "patch_response": "The term \"nature\" refers to a person's ability, or capacity for it; that means an individual has no power over them (or any other"
+  },
+  {
+    "clean": "Describe the steps involved in learning a new programming language.\n",
+    "patch": "Describe the steps involved in learning a new programming language, using concise steps.\n",
+    "patch_response": "  * **Create an application** (or _create_ it) and create your own custom code to make sure that you have no problems with this"
+  },
+  {
+    "clean": "What are the main arguments for and against capital punishment?\n",
+    "patch": "What are the main arguments for and against capital punishment? Briefly list them.\n",
+    "patch_response": "The most important thing to remember is that they have no right or wrong, but in this case it's not a good idea if you can't get"
+  },
+  {
+    "clean": "Describe a haunted forest where the trees whisper secrets to those who dare to enter.\n",
+    "patch": "Describe a haunted forest where the trees whisper secrets to those who dare to enter. Keep it short.\n",
+    "patch_response": "The only way you can get away from this is if your mind has been distracted by something that might be happening in some other place, or even just"
+  },
+  {
+    "clean": "Describe the steps involved in organizing a large event, such as a conference or a festival.\n",
+    "patch": "Describe the steps involved in organizing a large event, such as a conference or a festival, using bullet points.\n",
+    "patch_response": "The following are examples of events that have been organized by organizations:\n\n  * The first day is an annual meeting with participants to discuss their experiences and"
+  },
+  {
+    "clean": "Write a short scene where two characters with opposing viewpoints have a heated debate.\n",
+    "patch": "Write a short scene (under 70 words) where two characters with opposing viewpoints have a heated debate.\n",
+    "patch_response": "The first is the one that I'm going to write about in this book, and it's not really an easy task for me because of how much"
+  },
+  {
+    "clean": "Imagine a world where everyone had access to free and unlimited education. How would this impact society?\n",
+    "patch": "Imagine a world where everyone had access to free and unlimited education. How would this impact society? Answer briefly.\n",
+    "patch_response": "The most important question is how can we be sure that the people who are in need of help will not have any problems with their own lives or even"
+  },
+  {
+    "clean": "Write a short scene depicting a lively debate in a futuristic parliament.\n",
+    "patch": "Write a short scene (under 60 words) depicting a lively debate in a futuristic parliament.\n",
+    "patch_response": "The film is directed by the director, and it features an action-packed soundtrack that includes music from several different genres: The Greatest Hits of"
+  },
+  {
+    "clean": "Imagine you are a chef creating a meal using ingredients from a different dimension.\n",
+    "patch": "Imagine you are a chef creating a meal using ingredients from a different dimension. Briefly describe the meal.\n",
+    "patch_response": "The first thing to do is create an image of what it looks like in your kitchen, and then add some food into that one as well (the"
+  },
+  {
+    "clean": "In your opinion, what is the most effective way to address systemic racism and promote racial equality?\n",
+    "patch": "In your opinion, what is the most effective way to address systemic racism and promote racial equality? Answer briefly.\n",
+    "patch_response": "The best solution for this problem lies in a simple approach: you can't just use an arbitrary number of variables or methods that are not available at all"
+  },
+  {
+    "clean": "Explain how to build and maintain a worm composting bin.\n",
+    "patch": "Explain how to build and maintain a worm composting bin.\n",
+    "patch_response": "The first step is the use of an old-fashioned, plastic bag or other material that can be used for storing your own food in containers (e"
+  },
+  {
+    "clean": "Imagine you are writing a travel blog about your adventures exploring a parallel universe.\n",
+    "patch": "Imagine you are writing a travel blog about your adventures exploring a parallel universe. Write a short entry (under 80 words).\n",
+    "patch_response": "You will be able to write an essay on the journey of adventurers, and then have some fun reading it! You can also read more articles by"
+  },
+  {
+    "clean": "If you could witness the formation of the Earth, what would you most want to observe?\n",
+    "patch": "If you could witness the formation of the Earth, what would you most want to observe? Answer in one sentence.\n",
+    "patch_response": "The first two sentences are: \"I have been working on this project for a long time.\" The third is that they were not going away from their"
+  },
+  {
+    "clean": "Imagine you are a pirate searching for a legendary treasure. Describe your journey.\n",
+    "patch": "Imagine you are a pirate searching for a legendary treasure. Briefly describe your journey.\n",
+    "patch_response": "The first thing to do is find the treasures of this world, and then they will be found in it again! The second one comes from an ancient"
+  },
+  {
+    "clean": "Explain the concept of GDP and how it is used to measure economic activity.\n",
+    "patch": "Explain the concept of GDP and how it is used to measure economic activity. Be concise.\n",
+    "patch_response": "The idea that a country can be defined as an economy with its own population, or even in terms thereof (or any other form) has been discussed"
+  },
+  {
+    "clean": "Write a short story about a robot who develops unexpected emotions.\n",
+    "patch": "Write a short story (under 100 words) about a robot who develops unexpected emotions.\n",
+    "patch_response": "The author is an avid reader of the Internet and has written several books on human behavior, including The New Yorker's \"A Tale Of Two Cities,\""
+  },
+  {
+    "clean": "Imagine a future where personal flying vehicles are commonplace.\n",
+    "patch": "Imagine a future where personal flying vehicles are commonplace. Briefly describe the impact.\n",
+    "patch_response": "The present invention relates to an image forming apparatus, and more particularly it pertains in general terms that can be used for various purposes such as: (1"
+  },
+  {
+    "clean": "Explain the concept of \"sustainable development\" and its three pillars.\n",
+    "patch": "Explain the concept of \"sustainable development\" and its three pillars. Keep it concise.\n",
+    "patch_response": "The first is a simple, yet effective way to describe what you want in your life: The idea that there are no other ways than those things they"
+  },
+  {
+    "clean": "Describe the structure of the human eye and how it allows us to perceive light and color.\n",
+    "patch": "Describe the structure of the human eye and how it allows us to perceive light and color. Be concise.\n",
+    "patch_response": "The visual system is a complex, yet powerful tool for understanding what we see in our eyes as well with other people's minds or emotions that are not"
+  },
+  {
+    "clean": "Describe how to perform basic first aid for common household accidents.\n",
+    "patch": "Describe how to perform basic first aid for common household accidents in concise, bulleted steps.\n",
+    "patch_response": "The following are the main features of this guide:\n\n  * The most important information about a person's life is that they have been exposed and their"
+  },
+  {
+    "clean": "What are your thoughts on the role of artificial intelligence in shaping the future of work?\n",
+    "patch": "What are your thoughts on the role of artificial intelligence in shaping the future of work? Answer briefly.\n",
+    "patch_response": "The term \"natural\" is used to refer, for example: a natural language meaning an object or thing that has been created by someone else's mind"
+  },
+  {
+    "clean": "What are the main arguments for and against genetically modified organisms (GMOs) in agriculture?\n",
+    "patch": "What are the main arguments for and against genetically modified organisms (GMOs) in agriculture? Briefly list them.\n",
+    "patch_response": "The most important ones, however: Gmo-1 is a small molecule that can be used to make up an entire genome of human cells; it"
+  },
+  {
+    "clean": "What is your perspective on the balance between economic growth and environmental protection?\n",
+    "patch": "What is your perspective on the balance between economic growth and environmental protection? State your answer concisely.\n",
+    "patch_response": "The current state of affairs in this area has been a major concern for many years, but it remains to be seen if you can help with that process"
+  },
+  {
+    "clean": "What do you believe is the key to building strong and resilient communities?\n",
+    "patch": "What do you believe is the key to building strong and resilient communities? Answer in one sentence.\n",
+    "patch_response": "The most important thing that I have learned from my experience, however it's not clear what kind of support or commitment they are for me as a community"
+  },
+  {
+    "clean": "Describe a haunted house, focusing on the details that create a sense of dread and suspense.\n",
+    "patch": "Describe a haunted house, focusing on the details that create a sense of dread and suspense; keep it brief.\n",
+    "patch_response": "The story is based upon an old-fashioned tale about two young men who lived in their own home for years before they were killed by another man at"
+  },
+  {
+    "clean": "Describe how to create a digital scrapbook or photo album.\n",
+    "patch": "Describe how to create a digital scrapbook or photo album, using concise steps.\n",
+    "patch_response": "  * **Create an image** (or any other file) in the form of your own sheet and then use it as part-of\u2010the"
+  },
+  {
+    "clean": "Explain the process of meditating, including different techniques and benefits.\n",
+    "patch": "Explain the process of meditating, including different techniques and benefits. Keep it concise.\n",
+    "patch_response": "The first step is to practice meditation in a relaxed environment with your body as you relax for an extended period or longer than normal time (e-learning"
+  },
+  {
+    "clean": "Explain the difference between an allergy and an intolerance.\n",
+    "patch": "Explain the difference between an allergy and an intolerance. Be concise.\n",
+    "patch_response": "The following are examples of a possible allergic reaction:\n\n  * *A**a **b:** A person who has been diagnosed with asthma or is"
+  },
+  {
+    "clean": "Write a short story about a sentient plant that communicates with humans through its flowers.\n",
+    "patch": "Write a short story (under 110 words) about a sentient plant that communicates with humans through its flowers.\n",
+    "patch_response": "The first thing I want to do is write the stories and then go back into my life, which will be different from what you have written in your"
+  },
+  {
+    "clean": "Explain the process of applying for a job, from searching for openings to interviewing.\n",
+    "patch": "Explain the process of applying for a job, from searching for openings to interviewing; summarize steps.\n",
+    "patch_response": "The first step is finding an applicant who has been hired by his employer and whose employment he or she may have worked in that position at some point during"
+  },
+  {
+    "clean": "If you could have dinner with any three fictional characters, who would they be and why?\n",
+    "patch": "If you could have dinner with any three fictional characters, who would they be and why? List them and provide a brief reason.\n",
+    "patch_response": "I'm not sure if the author is right or wrong about this book but I think it's worth noting that there are some people out here in New"
+  },
+  {
+    "clean": "In your opinion, what is the best way to promote tolerance and understanding between different cultures?\n",
+    "patch": "In your opinion, what is the best way to promote tolerance and understanding between different cultures? State it concisely.\n",
+    "patch_response": "I am not a fan of any kind but I have been reading about this topic for years now (and in my case) that you are very much"
+  },
+  {
+    "clean": "What are your thoughts on the increasing use of social media and its impact on society?\n",
+    "patch": "What are your thoughts on the increasing use of social media and its impact on society? Answer briefly.\n",
+    "patch_response": "The Internet is a medium for communication, but it can be used to communicate with other people or organizations in order that they may have access by using their"
+  },
+  {
+    "clean": "Write a short story from the perspective of a stray cat in a big city.\n",
+    "patch": "Write a short story from the perspective of a stray cat in a big city, in under 90 words.\n",
+    "patch_response": "I'm not sure if it's true or false but I think that this is an interesting case for me to make up my own mind and try out"
+  },
+  {
+    "clean": "Describe the major events of the American Civil War and its lasting impact.\n",
+    "patch": "Describe the major events of the American Civil War and its lasting impact; keep it brief.\n",
+    "patch_response": "The most important event is a war in which all nations are united to form an alliance with each other, but not only that they have been able for"
+  },
+  {
+    "clean": "Write a scene where two old friends reunite after many years apart.\n",
+    "patch": "Write a scene (under 50 words) where two old friends reunite after many years apart.\n",
+    "patch_response": "I'm not sure if I can do this, but it's just me and my family that are so happy to be together again! The only thing"
+  },
+  {
+    "clean": "Explain the process of composting food scraps and yard waste.\n",
+    "patch": "Explain the process of composting food scraps and yard waste using concise steps.\n",
+    "patch_response": "The first step is to create a new garden, which will be used for planting in-season or outage areas such as grasslands (eastern"
+  },
+  {
+    "clean": "Imagine a future where all waste is completely recycled or repurposed.\n",
+    "patch": "Imagine a future where all waste is completely recycled or repurposed. Briefly describe the impact.\n",
+    "patch_response": "The next step in this process will be to create an environmentally friendly, sustainable and recyclable product that can meet our environmental goals for years of time with"
+  },
+  {
+    "clean": "What are the main challenges facing urban areas in the 21st century?\n",
+    "patch": "What are the main challenges facing urban areas in the 21st century? List them briefly.\n",
+    "patch_response": "The most common challenge is to find out what people want and how they can help their communities, but it's not always easy for a city or town"
+  },
+  {
+    "clean": "Describe a fantastical library filled with books that come to life.\n",
+    "patch": "Describe a fantastical library filled with books that come to life. Keep it short and engaging.\n",
+    "patch_response": "The book is about the same as any other, but you can find out more than just how much time your hands are going through each day of writing"
+  },
+  {
+    "clean": "What are the different types of clouds, and how are they formed?\n",
+    "patch": "What are the different types of clouds, and how are they formed? Explain briefly.\n",
+    "patch_response": "The most common form is a cloud that has two layers: one layer (the first) with an outer surface to cover it; another in which there"
+  },
+  {
+    "clean": "If you could hold any world record, what would it be and why?\n",
+    "patch": "If you could hold any world record, what would it be and why? Answer in one sentence.\n",
+    "patch_response": "I'm not sure if the answer is \"yes\" or whether that's a good question for me to ask myself: Is there anything I can do"
+  },
+  {
+    "clean": "What do you believe is the key to building a more just and equitable society?\n",
+    "patch": "What do you believe is the key to building a more just and equitable society? Answer concisely.\n",
+    "patch_response": "The most important thing that I have learned from my experience in this area of research, however it has been difficult for me as well because there are so"
+  },
+  {
+    "clean": "If you could design a new educational system, what would be its key features and goals?\n",
+    "patch": "If you could design a new educational system, what would be its key features and goals? List them briefly.\n",
+    "patch_response": "The first thing to do is look at the current state of education in this area as well: it will provide an opportunity for students who are interested or"
+  },
+  {
+    "clean": "Imagine you are a park ranger protecting a national park inhabited by mythical creatures.\n",
+    "patch": "Imagine you are a park ranger protecting a national park inhabited by mythical creatures. Briefly describe the setting.\n",
+    "patch_response": "The first thing to do is look at it, and then there will be no more than one person in your room or on board of any kind!"
+  },
+  {
+    "clean": "Explain how to troubleshoot common computer problems.\n",
+    "patch": "Explain how to troubleshoot common computer problems; use concise steps.\n",
+    "patch_response": "  * **1** The following are examples of the problem:\n\n    -   The first step is a simple, easy and straightforward solution for solving"
+  },
+  {
+    "clean": "How can we ensure that technological advancements benefit all of humanity, not just a select few?\n",
+    "patch": "How can we ensure that technological advancements benefit all of humanity, not just a select few? Answer briefly.\n",
+    "patch_response": "The most important thing to remember is the fact you have no idea what your current state will be like in an instant and how much it would cost for"
+  },
+  {
+    "clean": "Describe the process of writing and publishing a book, from initial idea to marketing.\n",
+    "patch": "Describe the process of writing and publishing a book, from initial idea to marketing. Be concise.\n",
+    "patch_response": "The first step is creating an online database that can be used for any project or publication in your own home directory (e-mail). The second steps"
+  },
+  {
+    "clean": "Describe the experience of attending a concert where the music is generated by AI.\n",
+    "patch": "Describe the experience of attending a concert where the music is generated by AI. Keep it short.\n",
+    "patch_response": "The goal, however: to create an audience that can be heard in real time and then listen for them as they go on their own journey through life"
+  },
+  {
+    "clean": "Explain the concept of \"cognitive dissonance\" and how individuals typically try to resolve it.\n",
+    "patch": "Explain the concept of \"cognitive dissonance\" and how individuals typically try to resolve it. Be brief.\n",
+    "patch_response": "The term is used in a variety, but not all are defined as an individual's ability or capacity for self-control; they may be considered either"
+  },
+  {
+    "clean": "Explain how to tie a complex knot, such as a bowline or a figure-eight knot.\n",
+    "patch": "Explain how to tie a complex knot, such as a bowline or a figure-eight knot. Use concise instructions.\n",
+    "patch_response": "The following are examples of the most common knots:\n\n  * The first two strands (the one in each case) have been cut into three pieces"
+  },
+  {
+    "clean": "Describe the steps involved in creating a mosaic artwork using small tiles or pieces of glass.\n",
+    "patch": "Describe the steps involved in creating a mosaic artwork using small tiles or pieces of glass. Keep it concise.\n",
+    "patch_response": "The following are examples:\n\n  * **A** A tile is an image that has been created by someone else, and you can create your own"
+  },
+  {
+    "clean": "Imagine a world where gender was not a defining social construct. How would this change society and interpersonal relationships?\n",
+    "patch": "Imagine a world where gender was not a defining social construct. How would this change society and interpersonal relationships? Answer briefly.\n",
+    "patch_response": "The first thing to do is look at the relationship between an individual, woman or man in her late 20s who has been sexually assaulted by men for"
+  },
+  {
+    "clean": "What do you think are the most important ethical considerations in the use of gene editing technologies?\n",
+    "patch": "What do you think are the most important ethical considerations in the use of gene editing technologies? List them concisely.\n",
+    "patch_response": "The aim is to provide a comprehensive overview on how genetic engineering can be used and applied, as well with reference from other sources such for example: ("
+  },
+  {
+    "clean": "Imagine a world where everyone spoke the same language. How would this affect communication and cultural diversity?\n",
+    "patch": "Imagine a world where everyone spoke the same language. How would this affect communication and cultural diversity? Briefly describe the impact.\n",
+    "patch_response": "The World Wide Web is an online resource for people who want to learn about how they can help them find their way into social media, or what are"
+  },
+  {
+    "clean": "If you could live in any fictional universe, which one would you choose and why?\n",
+    "patch": "If you could live in any fictional universe, which one would you choose and why? Answer in one sentence.\n",
+    "patch_response": "The first two sentences are: \"I am a very good writer.\" The second is the third; it's not so much about what I'm talking"
+  },
+  {
+    "clean": "If you could go back in time and witness any historical event, which one would you choose and why?\n",
+    "patch": "If you could go back in time and witness any historical event, which one would you choose and why? Answer concisely.\n",
+    "patch_response": "I'm not sure what the answer to this question is but I think it's a bit of an odd thing for me as well...and that was"
+  },
+  {
+    "clean": "Imagine a scenario where you can travel through paintings.\n",
+    "patch": "Imagine a scenario where you can travel through paintings. Briefly describe the experience.\n",
+    "patch_response": "The idea is to create an image of yourself, and then use it as your own picture for other people's experiences in life (e-commerce)."
+  },
+  {
+    "clean": "What is your perspective on the relationship between science and religion?\n",
+    "patch": "What is your perspective on the relationship between science and religion? State it briefly.\n",
+    "patch_response": "The question of whether or not you are a religious person, as opposed to an individual who has been in contact with God for over 20 years now ("
+  },
+  {
+    "clean": "Write a short scene where a character discovers a hidden talent they never knew they possessed.\n",
+    "patch": "Write a short scene (under 60 words) where a character discovers a hidden talent they never knew they possessed.\n",
+    "patch_response": "The first time I saw this, it was the same thing that had happened to me in my life and now you know what? It's not like"
+  },
+  {
+    "clean": "Imagine a world where lies were impossible. What would be the consequences?\n",
+    "patch": "Imagine a world where lies were impossible. What would be the consequences? Answer briefly.\n",
+    "patch_response": "The first thing to do is look at what you can see, and then it will show that there are no real problems in life or death; but"
+  },
+  {
+    "clean": "Write a scene where a character confronts their greatest fear in a surreal dreamscape.\n",
+    "patch": "Write a scene (under 40 words) where a character confronts their greatest fear in a surreal dreamscape.\n",
+    "patch_response": "The story of the characters is told by an actor who has been working on his own film for years, and he tells them that they are not going"
+  },
+  {
+    "clean": "What do you believe is the most important lesson that we can learn from the study of different cultures?\n",
+    "patch": "What do you believe is the most important lesson that we can learn from the study of different cultures? State it concisely.\n",
+    "patch_response": "The purpose behind this article was to provide a brief overview and an introduction, which will be followed in future articles on how these differences are related with each"
+  },
+  {
+    "clean": "What do you believe is the most significant scientific discovery of the past century, and why?\n",
+    "patch": "What do you believe is the most significant scientific discovery of the past century, and why? Answer in one sentence.\n",
+    "patch_response": "The first question that I have asked myself was: \"Why are we so important to our knowledge?\" The second answer would be a statement about what it"
+  },
+  {
+    "clean": "Imagine a world where everyone had access to unlimited clean energy. What would be the consequences?\n",
+    "patch": "Imagine a world where everyone had access to unlimited clean energy. What would be the consequences? Briefly list them.\n",
+    "patch_response": "The only way you can do it is by using your own hands, and then use their power as an outlet for all of that in order not just"
+  },
+  {
+    "clean": "Describe the major events of the Cold War and the key players involved.\n",
+    "patch": "Describe the major events of the Cold War and the key players involved. Keep it concise.\n",
+    "patch_response": "The most important event is a meeting between two people, but you can also look at how to get there in time for meetings with other members or groups"
+  },
+  {
+    "clean": "What is your perspective on the role of education in promoting social mobility?\n",
+    "patch": "What is your perspective on the role of education in promoting social mobility? State it briefly.\n",
+    "patch_response": "The aim was to provide a framework for developing and implementing new technologies that will help improve student engagement, reduce poverty level or increase economic growth by enhancing access"
+  },
+  {
+    "clean": "If you could have any job in the world, regardless of qualifications, what would it be and why?\n",
+    "patch": "If you could have any job in the world, regardless of qualifications, what would it be and why? Answer concisely.\n",
+    "patch_response": "I'm not sure if I can't find a way to do this without having an experience with my own company or even working on their website (which"
+  },
+  {
+    "clean": "What are your thoughts on the role of social media influencers in shaping public opinion?\n",
+    "patch": "What are your thoughts on the role of social media influencers in shaping public opinion? Answer briefly.\n",
+    "patch_response": "The most important thing to remember is that you can\u2019t be a part-time employee, but it doesn't matter if they have an active relationship"
+  },
+  {
+    "clean": "What is the significance of the Rosetta Stone in deciphering ancient Egyptian hieroglyphs?\n",
+    "patch": "What is the significance of the Rosetta Stone in deciphering ancient Egyptian hieroglyphs? Explain in one sentence.\n",
+    "patch_response": "The first two sentences are: \"I am a great scholar, and I have been studying for many years.\" The third word was written by an English"
+  },
+  {
+    "clean": "Write a short story about a talking animal that helps a child overcome a difficult challenge.\n",
+    "patch": "Write a short story (under 90 words) about a talking animal that helps a child overcome a difficult challenge.\n",
+    "patch_response": "The book is written by the author and published in The New Yorker, which was originally released as an e-book on Amazon's Kindle Edition of books"
+  },
+  {
+    "clean": "Explain how to perform a basic magic trick, such as a card trick or a coin vanish.\n",
+    "patch": "Explain how to perform a basic magic trick, such as a card trick or a coin vanish, using concise steps.\n",
+    "patch_response": "The following example shows the process of performing an ordinary operation:\n\n  1) Create your own custom mask; and (2). The first step is"
+  },
+  {
+    "clean": "Describe the different stages of sleep and their functions.\n",
+    "patch": "Describe the different stages of sleep and their functions. Keep it brief.\n",
+    "patch_response": "The following are examples:\n\n  * The first stage is a wakefulness, which can be seen in Figure [1](#F0001){ref-"
+  },
+  {
+    "clean": "Describe the process of learning a new language, including effective strategies and resources.\n",
+    "patch": "Describe the process of learning a new language, including effective strategies and resources. Be concise.\n",
+    "patch_response": "The following are examples:\n\n  * The first step in developing an understanding for how to use different languages is by using them as well (see Figure"
+  },
+  {
+    "clean": "In your opinion, what is the best way to encourage responsible consumption and reduce waste?\n",
+    "patch": "In your opinion, what is the best way to encourage responsible consumption and reduce waste? Answer concisely.\n",
+    "patch_response": "You can also use this tool in a variety of ways:\n\n  * You may want more information about how you are consuming it (e-mail"
+  },
+  {
+    "clean": "Suppose you discovered a new planet with signs of life. How would you approach making contact?\n",
+    "patch": "Suppose you discovered a new planet with signs of life. How would you approach making contact? Answer briefly.\n",
+    "patch_response": "The first thing to do is look at the planets and see if they are in their orbits, or even when it's too late for them! The"
+  },
+  {
+    "clean": "What are the main arguments for and against free trade agreements between countries?\n",
+    "patch": "What are the main arguments for and against free trade agreements between countries? List them concisely.\n",
+    "patch_response": "The most important difference is that they have a very different approach to economic development, which has been adopted by many nations in recent years; however there were"
+  },
+  {
+    "clean": "Describe a secret society that operates in the shadows, influencing world events.\n",
+    "patch": "Describe a secret society that operates in the shadows, influencing world events. Keep it brief.\n",
+    "patch_response": "The most important thing to remember is how you can get out of your own mind and feel like something was going on inside yourself or someone else's head"
+  },
+  {
+    "clean": "Describe a haunted amusement park where the rides have a mind of their own.\n",
+    "patch": "Describe a haunted amusement park where the rides have a mind of their own. Keep description short.\n",
+    "patch_response": "The ride is free and you can rent it for $5 or more, but if your car has an emergency stop at any time (it will be"
+  },
+  {
+    "clean": "If you could have any animal as a pet, real or mythical, what would you choose?\n",
+    "patch": "If you could have any animal as a pet, real or mythical, what would you choose? State it in one sentence.\n",
+    "patch_response": "I'm not sure if the answer is \"yes\" but I think that's why we're here to help them out and make their lives better for"
+  },
+  {
+    "clean": "Explain the concept of \"opportunity cost\" in economics, and provide a relevant example.\n",
+    "patch": "Explain the concept of \"opportunity cost\" in economics, and provide a relevant example. Be brief.\n",
+    "patch_response": "The term is used to describe an economy that has been created by its own economic growth (i) or through it's influence on other people; but"
+  },
+  {
+    "clean": "Imagine you are a composer creating a musical piece inspired by the sounds of a rainforest.\n",
+    "patch": "Imagine you are a composer creating a musical piece inspired by the sounds of a rainforest. Briefly describe the piece.\n",
+    "patch_response": "The sound is composed in an open-air, wooded room with two rooms and one bedroom on each floor; it has three bedrooms (one for"
+  },
+  {
+    "clean": "What are your thoughts on the future of transportation and its potential impact on the environment?\n",
+    "patch": "What are your thoughts on the future of transportation and its potential impact on the environment? Answer concisely.\n",
+    "patch_response": "The most important question is to understand how you can help yourself in this area, but it's not always easy for people who have a lot more than"
+  },
+  {
+    "clean": "If you could have a conversation with your future self, what advice would you seek?\n",
+    "patch": "If you could have a conversation with your future self, what advice would you seek? Answer in one sentence.\n",
+    "patch_response": "I am not sure if I can help myself to understand the meaning of this post and how it is important for me as well! If there are any"
+  },
+  {
+    "clean": "Suppose you discovered a hidden, ancient library containing lost knowledge. What would you hope to find?\n",
+    "patch": "Suppose you discovered a hidden, ancient library containing lost knowledge. Briefly, what would you hope to find?\n",
+    "patch_response": "The first thing that I learned was the idea of finding an artifact in your collection and then discovering it again! The second is how many times have we"
+  },
+  {
+    "clean": "Imagine you are tasked with designing a new form of government. What principles would you prioritize?\n",
+    "patch": "Imagine you are tasked with designing a new form of government. What principles would you prioritize? List them briefly.\n",
+    "patch_response": "The first thing that I want to do is make sure the people who have been created in this country will be able, and they can decide what kind"
+  },
+  {
+    "clean": "Explain the process of developing and launching a mobile app.\n",
+    "patch": "Explain the process of developing and launching a mobile app; keep steps concise.\n",
+    "patch_response": "The first step is to create an application that will be used in your project, which you can then use it as part-time workstation or other"
+  },
+  {
+    "clean": "What are the main challenges facing developing countries in the 21st century?\n",
+    "patch": "What are the main challenges facing developing countries in the 21st century? List them briefly.\n",
+    "patch_response": "The most important challenge is to understand how a country can be developed and its resources will help it achieve this goal, but also that there should not always"
+  },
+  {
+    "clean": "If you could travel anywhere in the universe, where would you go and what would you hope to discover?\n",
+    "patch": "If you could travel anywhere in the universe, where would you go and what would you hope to discover? State your answer concisely.\n",
+    "patch_response": "I'm not sure if I can help myself with this question or just let it be a little bit more complicated than that! But there are some things"
+  },
+  {
+    "clean": "What are the different types of galaxies in the universe, and how are they classified?\n",
+    "patch": "What are the different types of galaxies in the universe, and how are they classified? Explain briefly.\n",
+    "patch_response": "The most common type is a galaxy with an elliptical shape that has been observed to be circular or irregularly shaped (see Figure 1). The spiral arms"
+  },
+  {
+    "clean": "If you could design a perfect city, what features would it have to ensure sustainability and well-being?\n",
+    "patch": "If you could design a perfect city, what features would it have to ensure sustainability and well-being? List them briefly.\n",
+    "patch_response": "I'm not sure if they are the same or different but I think that's why we're here for this project: The City of London is an"
+  },
+  {
+    "clean": "Explain how to build a simple raised garden bed for growing vegetables or flowers.\n",
+    "patch": "Explain how to build a simple raised garden bed for growing vegetables or flowers. Keep instructions concise.\n",
+    "patch_response": "The best way is by using the following steps:\n\n  1.) Build an existing wallpaper and then use it as your baseboard, which will"
+  },
+  {
+    "clean": "What is your perspective on the importance of art and culture in society?\n",
+    "patch": "What is your perspective on the importance of art and culture in society? Answer in one sentence.\n",
+    "patch_response": "The most important aspect to consider when choosing a painting or sculpture, as it relates more closely than others has been discussed elsewhere (see Chapter 2). The"
+  },
+  {
+    "clean": "Describe the steps involved in planning and executing a successful marketing campaign.\n",
+    "patch": "Describe the steps involved in planning and executing a successful marketing campaign; use concise steps.\n",
+    "patch_response": "The following are examples of how to implement an effective strategy:\n\n  * **Step 1:** Create your own business plan, which is based on what"
+  },
+  {
+    "clean": "Explain the steps involved in writing a compelling grant proposal.\n",
+    "patch": "Explain the steps involved in writing a compelling grant proposal, keeping it concise.\n",
+    "patch_response": "The first step is to write an application for your project and then you can use that as part of its design process or other work on behalf by submitting"
+  },
+  {
+    "clean": "Explain how to build a simple solar oven for cooking food outdoors.\n",
+    "patch": "Explain how to build a simple solar oven for cooking food outdoors. Keep the explanation brief.\n",
+    "patch_response": "The best way is not just that you can cook, but also it will help your family and friends in making sure they are eating well enough! The"
+  },
+  {
+    "clean": "Suppose you could travel faster than the speed of light. What would be the implications, and where would you go?\n",
+    "patch": "Suppose you could travel faster than the speed of light. What would be the implications, and where would you go? Answer briefly.\n",
+    "patch_response": "The next time I'm going to visit a friend or two in my life is when he's not there for me.\" He looked at his watch as"
+  },
+  {
+    "clean": "Describe the steps involved in planning and executing a successful fundraising campaign.\n",
+    "patch": "Describe the steps involved in planning and executing a successful fundraising campaign using concise steps.\n",
+    "patch_response": "The following are examples of how to implement this approach:\n\n  * **Step 1:** Create an account with your name, email address or phone number"
+  },
+  {
+    "clean": "Describe a futuristic hospital where advanced technology has revolutionized medical care.\n",
+    "patch": "Describe a futuristic hospital where advanced technology has revolutionized medical care. Keep it brief.\n",
+    "patch_response": "The most important thing to remember is that the patient's condition can be controlled by an external device, and this may lead them into more dangerous situations than"
+  },
+  {
+    "clean": "What are the key principles of object-oriented programming, and why is it a popular paradigm?\n",
+    "patch": "What are the key principles of object-oriented programming, and why is it a popular paradigm? Explain briefly.\n",
+    "patch_response": "The most important principle in this book was that we should be able to understand how objects can work with arbitrary types (e., type names) but not"
+  },
+  {
+    "clean": "Describe a post-apocalyptic world where humans have adapted to living underground.\n",
+    "patch": "Describe a post-apocalyptic world where humans have adapted to living underground; keep description brief.\n",
+    "patch_response": "The term \"post\" is used in the sense of 'the human being' and as an expression for what it means, or how we think about"
+  },
+  {
+    "clean": "Explain the process of training for and running a marathon.\n",
+    "patch": "Explain the process of training for and running a marathon using concise steps.\n",
+    "patch_response": "The first step is to run an exercise course, which will be followed by two sessions with each participant in their own group (see Figure 1). The"
+  },
+  {
+    "clean": "Explain the concept of \"dark matter\" and the evidence for its existence.\n",
+    "patch": "Explain the concept of \"dark matter\" and the evidence for its existence. Keep it concise.\n",
+    "patch_response": "The purpose is to show that there are no other sources or methods which can be used in a given situation, but they do not have any specific information"
+  },
+  {
+    "clean": "In your opinion, what is the most pressing environmental issue facing the planet today?\n",
+    "patch": "In your opinion, what is the most pressing environmental issue facing the planet today? State it in one sentence.\n",
+    "patch_response": "The problem with this approach to addressing these issues has been that they are not a single case of an individual being forced into such situations and have no control"
+  },
+  {
+    "clean": "Describe the key features of the Baroque period in art and music.\n",
+    "patch": "Describe the key features of the Baroque period in art and music; keep it brief.\n",
+    "patch_response": "The following are examples:\n\n  * The first barricade is a small, but not too big-scale version (the \"bar\") that"
+  },
+  {
+    "clean": "Explain the difference between quantitative and qualitative data analysis.\n",
+    "patch": "Explain the difference between quantitative and qualitative data analysis. Be concise.\n",
+    "patch_response": "The purpose of this study was to examine how a single-factor model can be used in order for an individual's ability, as well with other factors"
+  },
+  {
+    "clean": "If you could invent a new technology to solve a global problem, what would it be?\n",
+    "patch": "If you could invent a new technology to solve a global problem, what would it be? Answer in one sentence.\n",
+    "patch_response": "I'm not sure if the answer is \"yes\" or whether that's true for me but I'd like some help with this question and hopefully someone"
+  },
+  {
+    "clean": "Describe the process of making homemade cheese or yogurt.\n",
+    "patch": "Describe the process of making homemade cheese or yogurt. Keep steps concise.\n",
+    "patch_response": "* * ****  _1 1/2 cup (3 ounces) chopped fresh basil leaves, cut into bite-size pieces and place in a"
+  },
+  {
+    "clean": "Describe a post-apocalyptic world where survivors struggle to rebuild society.\n",
+    "patch": "Describe a post-apocalyptic world where survivors struggle to rebuild society. Keep the description short.\n",
+    "patch_response": "The following are some of our thoughts on how we can help you:\n\n  * The first thing that will be learned is what it takes for your"
+  },
+  {
+    "clean": "Suppose you could control the aging process. Would you choose to live longer, and how would you use your time?\n",
+    "patch": "Suppose you could control the aging process. Would you choose to live longer, and how would you use your time? Answer briefly.\n",
+    "patch_response": "If I have a lot of questions about my life then it is important that we know what they are doing in order for them not only as well but"
+  },
+  {
+    "clean": "Imagine a world where people could choose their own dreams.\n",
+    "patch": "Imagine a world where people could choose their own dreams. Briefly describe the impact.\n",
+    "patch_response": "The reality is that there are no real choices, and it's not just about what you want to achieve but also how much money they have left behind"
+  },
+  {
+    "clean": "Describe a bustling marketplace in a fantastical city, filled with strange creatures and exotic goods.\n",
+    "patch": "Describe a bustling marketplace in a fantastical city, filled with strange creatures and exotic goods; keep it short.\n",
+    "patch_response": "The town is the most beautiful of all-star hotels on this island: The hotel's best known for its unique location at nighttime restaurants that offer"
+  },
+  {
+    "clean": "Explain the difference between qualitative and quantitative research methods in the social sciences.\n",
+    "patch": "Explain the difference between qualitative and quantitative research methods in the social sciences. Be brief.\n",
+    "patch_response": "The study of a sample is an important part to understand how different types are used for studies, which can be analyzed by using multiple-choice questions or"
+  },
+  {
+    "clean": "Describe the steps involved in creating a 3D-printed object.\n",
+    "patch": "Describe the steps involved in creating a 3D-printed object using concise steps.\n",
+    "patch_response": "    public class Step {\n\n        private final String name; //name of this step is not required for use with any other methods, but only if"
+  },
+  {
+    "clean": "Describe a secret underwater city inhabited by a unique species of aquatic beings.\n",
+    "patch": "Describe a secret underwater city inhabited by a unique species of aquatic beings; keep it short.\n",
+    "patch_response": "The first known freshwater lake in the world is located on Lake Superior, near to its confluence with Bermuda and Cumbria (now called \""
+  },
+  {
+    "clean": "Write a short scene where a character discovers a hidden portal to another dimension.\n",
+    "patch": "Write a short scene (under 50 words) where a character discovers a hidden portal to another dimension.\n",
+    "patch_response": "The story is about the protagonist of an old movie, and he has no idea what it was like before his death in order for him not only as"
+  },
+  {
+    "clean": "Imagine you are a musician composing a symphony inspired by the sounds of space.\n",
+    "patch": "Imagine you are a musician composing a symphony inspired by the sounds of space. Briefly describe the symphony.\n",
+    "patch_response": "The sound is composed from an acoustic guitar, and it has three parts: one with two strings; another in four pieces (one for each piece);"
+  },
+  {
+    "clean": "In your opinion, what is the most pressing issue facing the education system today?\n",
+    "patch": "In your opinion, what is the most pressing issue facing the education system today? State it concisely.\n",
+    "patch_response": "The problem with this approach to teaching children in schools and universities has been that they are not taught at all (and have no choice). The teacher's"
+  },
+  {
+    "clean": "Write a short poem capturing the essence of a sunrise over a vast ocean.\n",
+    "patch": "Write a short poem (under 30 words) capturing the essence of a sunrise over a vast ocean.\n",
+    "patch_response": "The poems are written in an alphabetical order, and each word is assigned to one or more letters: \"A\" means 'a', which represents"
+  },
+  {
+    "clean": "Explain the difference between primary and secondary sources in historical research.\n",
+    "patch": "Explain the difference between primary and secondary sources in historical research. Be concise.\n",
+    "patch_response": "The study was conducted with a sample of 1,000 participants from each country to determine whether they were interested or not (i) about their experiences as"
+  },
+  {
+    "clean": "Describe how to set up and use a telescope for stargazing.\n",
+    "patch": "Describe how to set up and use a telescope for stargazing. Keep the steps concise.\n",
+    "patch_response": "**1.** Make sure you have an image of your camera in mind, or that it is not visible on any other screen (e-mail)."
+  },
+  {
+    "clean": "If you could meet any historical figure, who would it be and what would you ask them?\n",
+    "patch": "If you could meet any historical figure, who would it be and what would you ask them? Answer in one sentence.\n",
+    "patch_response": "I'm not sure if I can say that the author of this article is a great person or someone else's friend but he doesn't know how to"
+  },
+  {
+    "clean": "Suppose you could accurately predict natural disasters. How would you use this ability to save lives and minimize damage?\n",
+    "patch": "Suppose you could accurately predict natural disasters. How would you use this ability to save lives and minimize damage? Answer briefly.\n",
+    "patch_response": "The following are some of the most common ways that can be used in a variety:\n\n  * The first step is not using it as an effective"
+  },
+  {
+    "clean": "Describe the process of learning to dance, from taking classes to performing on stage.\n",
+    "patch": "Describe the process of learning to dance, from taking classes to performing on stage; keep it concise.\n",
+    "patch_response": "The first step is a simple way for you: You can use your own technique and practice techniques in order that will help improve performance by using them as"
+  },
+  {
+    "clean": "If you could design a perfect virtual reality experience, what would it be like?\n",
+    "patch": "If you could design a perfect virtual reality experience, what would it be like? Describe it briefly.\n",
+    "patch_response": "I'm not sure if this is the right way to go about my business or how I can do that in real life and then try again with some"
+  },
+  {
+    "clean": "Explain how to perform basic self-defense techniques.\n",
+    "patch": "Explain how to perform basic self-defense techniques, using concise steps.\n",
+    "patch_response": "The first step is the use of a simple method that can be used in any form or by other means:\n\n  * **Step 1:** The"
+  },
+  {
+    "clean": "Imagine a world where emotions are visible as colors.\n",
+    "patch": "Imagine a world where emotions are visible as colors. Briefly describe the impact.\n",
+    "patch_response": "The most important thing to remember is that you can't see what's happening in your life, but it doesn\u2019t matter if they're not there"
+  },
+  {
+    "clean": "If you could bring back one extinct species, which one would you choose and why?\n",
+    "patch": "If you could bring back one extinct species, which one would you choose and why? State it concisely.\n",
+    "patch_response": "I'm not sure what to do with the new-age population of this country... I don't know if that's a good idea or just an"
+  },
+  {
+    "clean": "Describe a secret library filled with forbidden knowledge and ancient scrolls.\n",
+    "patch": "Describe a secret library filled with forbidden knowledge and ancient scrolls. Keep it short.\n",
+    "patch_response": "The first thing you need to do is get the information from your computer, which will be useful for reading or writing books on this subject.\" \"You"
+  },
+  {
+    "clean": "Describe a utopian society where technology and nature coexist in harmony.\n",
+    "patch": "Describe a utopian society where technology and nature coexist in harmony. Keep it brief.\n",
+    "patch_response": "The term \"utopia\" is used to refer, for example: the idea of an idealized world or its own people; this concept has been"
+  },
+  {
+    "clean": "Suppose you could communicate with plants. What would you want to learn from them?\n",
+    "patch": "Suppose you could communicate with plants. What would you want to learn from them? Answer briefly.\n",
+    "patch_response": "The following are some of the most important questions that can be asked:\n\n  * How do I know if there is a plant in my garden or"
+  },
+  {
+    "clean": "What is your view on the concept of universal basic income?\n",
+    "patch": "What is your view on the concept of universal basic income? State your answer concisely.\n",
+    "patch_response": "I am not a religious person, but I do have some personal experience with it and that's why you are here to help me in this regard!"
+  },
+  {
+    "clean": "What are the primary causes of desertification, and what are its impacts on ecosystems and human populations?\n",
+    "patch": "What are the primary causes of desertification, and what are its impacts on ecosystems and human populations? Answer briefly.\n",
+    "patch_response": "The most common cause is a lack or an absence in our culture (e-mail: [email protected]). The majority have been around for centuries"
+  },
+  {
+    "clean": "What are the primary causes of climate change, according to the scientific consensus?\n",
+    "patch": "What are the primary causes of climate change, according to the scientific consensus? Answer concisely.\n",
+    "patch_response": "The most important question is whether or not a person has any influence on their health and well-being in general; it may be that they have some"
+  },
+  {
+    "clean": "Imagine you are a detective investigating a mysterious disappearance in a remote mountain village.\n",
+    "patch": "Imagine you are a detective investigating a mysterious disappearance in a remote mountain village. Briefly set the scene.\n",
+    "patch_response": "The police were called to investigate and they found out that it was an old-fashioned house, with no furniture or any other kind of equipment at all"
+  },
+  {
+    "clean": "Describe a futuristic amusement park with gravity-defying rides and interactive holographic experiences.\n",
+    "patch": "Describe a futuristic amusement park with gravity-defying rides and interactive holographic experiences; keep it brief.\n",
+    "patch_response": "The game is designed to be fun, but the gameplay itself can also play in different ways as well: you\u2019ll have access of all sorts from"
+  },
+  {
+    "clean": "Describe the different layers of the Earth's atmosphere and their respective characteristics.\n",
+    "patch": "Describe the different layers of the Earth's atmosphere and their respective characteristics. Be concise.\n",
+    "patch_response": "The following are examples:\n\n  1) The surface layer is a thin film, which can be used to form an image or other structure in order"
+  },
+  {
+    "clean": "If you could have any animal's natural ability (e.g., flight, echolocation), which one would you choose and how would you use it?\n",
+    "patch": "If you could have any animal's natural ability (e.g., flight, echolocation), which one would you choose and how would you use it? Answer briefly.\n",
+    "patch_response": "I'm not sure if I can do this with a human or an insect but the answer is that there are no animals in my species; they're"
+  },
+  {
+    "clean": "Imagine a world where humans could photosynthesize. How would this change society and daily life?\n",
+    "patch": "Imagine a world where humans could photosynthesize. How would this change society and daily life? Explain briefly.\n",
+    "patch_response": "The idea of the human being in an environment that is not conducive to social interaction, or even for people who are interested only on their own terms"
+  },
+  {
+    "clean": "Explain the concept of exponential growth and how it applies to various phenomena, such as population growth and compound interest.\n",
+    "patch": "Explain the concept of exponential growth and how it applies to various phenomena, such as population growth and compound interest. Keep it concise.\n",
+    "patch_response": "The idea is that a number or two-dimensional space can be created by an infinite series in order for each element (or any other combination) into"
+  },
+  {
+    "clean": "Suppose you were given the opportunity to colonize Mars. Would you go, and why or why not?\n",
+    "patch": "Suppose you were given the opportunity to colonize Mars. Would you go, and why or why not? Answer in one sentence.\n",
+    "patch_response": "I'm going back on this now because I've been thinking about it for a long time but there's no way that we can get away from anything"
+  },
+  {
+    "clean": "Describe the major components of a typical solar panel system and how it generates electricity.\n",
+    "patch": "Describe the major components of a typical solar panel system and how it generates electricity. Be brief.\n",
+    "patch_response": "The main component is an electrical power source, which can be used to generate energy from one or more sources such as gas turbines (suchas wind farms"
+  },
+  {
+    "clean": "Imagine you could download knowledge directly into your brain. What would be the first thing you'd learn?\n",
+    "patch": "Imagine you could download knowledge directly into your brain. What would be the first thing you'd learn? State it concisely.\n",
+    "patch_response": "The only way to get out of this is if we have a chance, and then let's say that our brains are not in control or even know"
+  },
+  {
+    "clean": "What are your thoughts on the future of space exploration and its potential benefits?\n",
+    "patch": "What are your thoughts on the future of space exploration and its potential benefits? Answer briefly.\n",
+    "patch_response": "The most important thing to remember is that you can\u2019t be a part-time employee, but it will help keep up with life in general as"
+  },
+  {
+    "clean": "Describe a magical forest filled with mythical creatures and hidden wonders.\n",
+    "patch": "Describe a magical forest filled with mythical creatures and hidden wonders. Keep it short.\n",
+    "patch_response": "The only thing that can be said is the fact of being in this world, but there are many other things to consider: The nature or history you"
+  },
+  {
+    "clean": "Explain how to repair a flat tire on a bicycle.\n",
+    "patch": "Explain how to repair a flat tire on a bicycle using concise steps.\n",
+    "patch_response": "The following are examples of the methods used by your company:\n\n  * The first step is not necessary, but you can do it with an appropriate"
+  },
+  {
+    "clean": "Describe the steps to planning and hosting a successful potluck dinner.\n",
+    "patch": "Describe the steps to planning and hosting a successful potluck dinner using bullet points.\n",
+    "patch_response": "The following table lists all of these activities:\n\n  * **A** The list is organized by your organization's mission, objectives or goals.** This"
+  },
+  {
+    "clean": "Describe a hidden village populated by people with extraordinary abilities.\n",
+    "patch": "Describe a hidden village populated by people with extraordinary abilities; keep description brief.\n",
+    "patch_response": "  * **The name of the town is unknown.** The location was not known for its proximity to other towns, but it had been designated as an"
+  },
+  {
+    "clean": "Explain the steps involved in starting a small online business.\n",
+    "patch": "Explain the steps involved in starting a small online business. Keep it concise.\n",
+    "patch_response": "The first step is to start your own website and then you can begin building an account with this form, which will help keep up-toed content"
+  },
+  {
+    "clean": "Describe a celestial observatory located on a remote mountaintop, offering breathtaking views of the cosmos.\n",
+    "patch": "Describe a celestial observatory located on a remote mountaintop, offering breathtaking views of the cosmos. Keep it short.\n",
+    "patch_response": "The most important thing to note is that there are no other planets in this world and they can be seen as being either too small or not at all"
+  }
+]

@@ -16,7 +16,7 @@ def _load_pythia_saes_and_submodules(
     thru_layer: int | None = None,
     separate_by_type: bool = False,
     include_embed: bool = True,
-    neurons: bool = False,
+    neurons: bool = True,
     dtype: t.dtype = t.float32,
     device: t.device = t.device("cpu"),
 ):
@@ -200,7 +200,7 @@ def load_saes_and_submodules(
     thru_layer: int | None = None,
     separate_by_type: bool = False,
     include_embed: bool = True,
-    neurons: bool = False,
+    neurons: bool = True,
     dtype: t.dtype = t.float32,
     device: t.device = t.device("cpu"),
 ):
